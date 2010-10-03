@@ -1,0 +1,3 @@
+#labels install,setup
+How to install measureit
+
