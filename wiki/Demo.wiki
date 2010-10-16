@@ -1,0 +1,5 @@
+A working demo you will find [http://kfarm.homelinux.org/ here]
+
+Please note: This is my development machine. If you receive error messages than I am working at this project :)
+
+Some features are deactivated in this environment. You can not add or delete sensors, positions or change settings from existing sensors.
