@@ -1,8 +1,0 @@
-#labels Featured
-= Introduction =
-maesureit
-
-
-= Details =
-
-  * Requirements
