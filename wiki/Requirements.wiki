@@ -1,4 +1,4 @@
-#labels Phase-Requirements,hardware
+#labels Phase-Requirements,hardware,Featured
 == Requirements  ==
 To use measureit you need the following hardware:
 
