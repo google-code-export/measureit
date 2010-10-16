@@ -16,5 +16,8 @@ http://measureit.googlecode.com/svn/screenshots/measureit-timerange.png
  * Daily temperatures
 http://measureit.googlecode.com/svn/screenshots/measureit-temperature.png
 
+ * Real time plug and unplug from units ( maccbook power cable off/on then tv on/off )
+http://measureit.googlecode.com/svn/screenshots/measureit-plug-unplug.png
+
  * Admin interface
 http://measureit.googlecode.com/svn/screenshots/measureit-admin.png
