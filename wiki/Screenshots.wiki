@@ -1,0 +1,19 @@
+== Sceenshots ==
+
+ * Start screen with overview over all sensors
+http://measureit.googlecode.com/svn/screenshots/measureit-overview.png
+
+ * Start screen with overview over all sensors with automatic reload
+http://measureit.googlecode.com/svn/screenshots/measureit-overview-reload.png
+
+ * Overview from a sensor
+http://measureit.googlecode.com/svn/screenshots/measureit-start-sensor.png
+
+ * Custom time range data from sensor
+http://measureit.googlecode.com/svn/screenshots/measureit-timerange.png
+
+ * Daily temperatures
+http://measureit.googlecode.com/svn/screenshots/measureit-temperature.png
+
+ * Admin interface
+http://measureit.googlecode.com/svn/screenshots/measureit-admin.png
