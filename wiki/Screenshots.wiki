@@ -1,4 +1,4 @@
-#labels screenshot
+#labels screenshots,Featured
 == Sceenshots ==
 
  * Start screen with overview over all sensors
