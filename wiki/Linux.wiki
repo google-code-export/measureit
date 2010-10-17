@@ -1,0 +1,29 @@
+== Install on Linux ==
+
+The data cable driver you need is only available since kernel version 2.6.30
+
+*If you have already a running Linux test if your kernel support the data cable:*
+
+{{{lsusb -v -d 067b:2303 | grep bMaxPacketSize0}}}
+
+if the result is
+
+{{{bMaxPacketSize0        64}}}
+
+your kernel DOES NOT support the data cable. 
+Then you had to upgrade to a newer version. 
+The kernel you use you can find out with:
+
+{{{uname -a}}}
+
+*If you a starting with a new system:*
+
+Debian Lenny has no driver support to the data cable so I use a [http://www.ubuntu.com/ Ubuntu Desktop Version] that is easy to install.
+
+
+This following code examples are for a new installed ubuntu.
+
+If you have a support driver you need also:
+ * a Mysql Database Server
+ * a running webserver (f.e. Apache or lighttpd)
+ * PHP ( tested under PHP 5 )
