@@ -27,3 +27,9 @@ If you have a support driver you need also:
  * a Mysql Database Server
  * a running webserver (f.e. Apache or lighttpd)
  * PHP ( tested under PHP 5 )
+
+{{{sudo apt-get install php5-cgi php5-cli apache2 sshd ssh mysql5 mysql-server libapache2-mod-php5 php5-mysql}}}
+
+will install all software you need. Follow the instructions from the mysql installer.
+
+*cut  next time I complete the install instructions :)*
