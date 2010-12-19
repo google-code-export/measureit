@@ -17,7 +17,7 @@ The kernel you use you can find out with:
 
 {{{uname -a}}}
 
-*If you a starting with a new system:*
+==Starting with a new system:==
 
 Debian Lenny has no driver support to the data cable so I use a [http://www.ubuntu.com/ Ubuntu Desktop Version] that is easy to install.
 After downloading and install you have a ready to use linux system.
