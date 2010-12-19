@@ -8,3 +8,4 @@ Overview of the project
   * [http://code.google.com/p/measureit/wiki/Screenshots Screenshots (always avaiable)]
   * [http://code.google.com/p/measureit/wiki/Demo Demo ( sometimes available )]
   * [http://code.google.com/p/measureit/wiki/Requirements Requirements]
+  * [http://code.google.com/p/measureit/wiki/Install Install]
