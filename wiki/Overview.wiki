@@ -1,4 +1,4 @@
-#labels Featured
+#labels Featured,Phase-Support,faq
 == Introduction ==
 
 Overview of the project
@@ -9,4 +9,5 @@ Overview of the project
   * [http://code.google.com/p/measureit/wiki/Demo Demo ( sometimes available )]
   * [http://code.google.com/p/measureit/wiki/Requirements Requirements]
   * [http://code.google.com/p/measureit/wiki/Install Install]
+  * [http://code.google.com/p/measureit/wiki/FAQ FAQ]
   * [http://code.google.com/p/measureit/wiki/Credits Credits]
