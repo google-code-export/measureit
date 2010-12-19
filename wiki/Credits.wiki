@@ -1,0 +1,9 @@
+#summary One-sentence summary of this page.
+
+== Credits ==
+
+This project use additional third party software. Thanks to those developer for their great software  :)
+  * [http://jquery.com/ jQuery]
+  * [http://jqueryui.com/ jQuery UI]
+  * [http://code.google.com/p/flot/ flot]
+  * [http://www.ubuntu.com/ Ubuntu]
