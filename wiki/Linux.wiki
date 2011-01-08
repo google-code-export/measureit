@@ -36,7 +36,7 @@ Next we download and setup Measureit. You will asked for the user password you e
 cd /usr/local/src
 sudo mkdir measureit
 cd measureit
-sudo wget http://code.google.com/p/measureit/downloads/detail?name=measureit-XXX.tgz&can=2&q=
+sudo wget http://measureit.googlecode.com/files/measureit-XXX.tgz
 sudo tar -zxvf measureit-XXX.tgz
 }}}
 
