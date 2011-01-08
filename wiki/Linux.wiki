@@ -30,14 +30,14 @@ sudo apt-get install php5-cgi php5-cli apache2 mysql-server libapache2-mod-php5 
 
 Now all required software is installed. 
 
-Next we setup Measureit. You will asked for the user password you entered during the setup from Ubuntu 
+Next we download and setup Measureit. You will asked for the user password you entered during the setup from Ubuntu. Replace the XXX with the current version. The newest you will find in the downloads
 
 {{{
 cd /usr/local/src
 sudo mkdir measureit
 cd measureit
-sudo wget http://kfarm.homelinux.org/measureit_current.tgz
-sudo tar -zxvf measureit_current.tgz
+sudo wget http://code.google.com/p/measureit/downloads/detail?name=measureit-XXX.tgz&can=2&q=
+sudo tar -zxvf measureit-XXX.tgz
 }}}
 
 start Measureit with system start
