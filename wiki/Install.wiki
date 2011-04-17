@@ -13,3 +13,6 @@ I do not have any pc with a microsoft operating system.
 If you are a good hacker it should not be a problem to get it working with for example [http://www.apachefriends.org/xampp.html XAMMP]. Feel free to contact me to find a working windows solution.
 
 Everyone is  welcome to describe your experience with your operating system or start developing a working version for other unix os or wathever system you use
+
+You will find contact and informations about updates on twitter:
+[http://twitter.com/#!/measureitsoft @measureitsoft] 
