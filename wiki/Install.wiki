@@ -14,5 +14,7 @@ If you are a good hacker it should not be a problem to get it working with for e
 
 Everyone is  welcome to describe your experience with your operating system or start developing a working version for other unix os or wathever system you use
 
+*CONTACT ON TWITTER*
+
 You will find contact and informations about updates on twitter:
 [http://twitter.com/#!/measureitsoft @measureitsoft] 
