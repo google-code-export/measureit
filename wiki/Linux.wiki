@@ -12,7 +12,8 @@ The kernel you use you can find out with:
 
 =Important Please Note=
 
-Some users told me problems with installing. I try to find out the problems. No I know a lot of them...
+Some users told me problems with installing. I try to find out the problems. Now I know a lot of them...
+:(
 
 *In my experience the new ubuntu 11.4 is not ideal for non computer experts to install and run measureit...*
 
