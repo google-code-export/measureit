@@ -5,17 +5,28 @@ The data cable driver you need is only available since kernel version 2.6.30
 
 *If you have already a running Linux test if your kernel support the data cable:*
 
-{{{lsusb -v -d 067b:2303 | grep bMaxPacketSize0}}}
-
-if the result is
-
-{{{bMaxPacketSize0        64}}}
-
-your kernel *DOES NOT* support the data cable. 
-Then you had to upgrade to a newer version. 
+If you have a a hen you had to upgrade to a newer version. 
 The kernel you use you can find out with:
 
 {{{uname -a}}}
+
+=Important Please Note=
+
+Some users told me problems with installing. I try to find out the problems. No I know a lot of them...
+
+*In my experience the new ubuntu 11.4 is not ideal for non computer experts to install and run measureit...*
+
+
+I will do some more experience with some other linux distributions after my holiday :)
+
+Sorry for waiting time. I will be back on 2011.06.20
+
+
+But for now I need my holiday ;)
+
+
+If you are not practiced with linux systems stop here now and be patient with me. I will deliver a better solution!
+
 
 ==Starting with a new system:==
 
