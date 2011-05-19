@@ -5,7 +5,7 @@ The data cable driver you need is only available since kernel version 2.6.30
 
 *If you have already a running Linux test if your kernel support the data cable:*
 
-If you have a a hen you had to upgrade to a newer version. 
+If you have a older kernel then you had to upgrade to a newer version. 
 The kernel you use you can find out with:
 
 {{{uname -a}}}
