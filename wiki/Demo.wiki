@@ -3,6 +3,6 @@ A working demo you will find [http://kfarm.homelinux.org/ here]
 
 Please note: This is my development machine. If you receive error messages than I am working at this project :)
 
-I am on holiday until 2011-06-20. In this time you had to satisfied with the screenshots :)
+*I am on holiday until 2011-06-20. In this time you had to satisfied with the screenshots :)*
 
 Some features are deactivated in this environment. You can not add or delete sensors, positions or change settings from existing sensors.
