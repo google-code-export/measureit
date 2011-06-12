@@ -10,24 +10,7 @@ The kernel you use you can find out with:
 
 {{{uname -a}}}
 
-=Important Please Note=
-
-Some users told me problems with installing. I try to find out the problems. Now I know a lot of them...
-:(
-
-*In my experience the new ubuntu 11.4 is not ideal for non computer experts to install and run measureit...*
-
-
-I will do some more experience with some other linux distributions after my holiday :)
-
-Sorry for waiting time. I will be back on 2011.06.20
-
-
-But for now I need my holiday ;)
-
-
-If you are not practiced with linux systems stop here now and be patient with me. I will deliver a better solution!
-
+Known issues and solutions when you are running into problems during the setup you will find on the [http://code.google.com/p/measureit/wiki/FAQ faq page] in the wiki
 
 ==Starting with a new system:==
 
@@ -51,10 +34,19 @@ sudo tar -zxvf measureit-XXX.tgz
 cd measureit-XXX
 }}}
 
-start Measureit with system start
+create measurit start script
 
+If you are using ubuntu 11.4
 {{{
-sudo cp install/measureit_init_script.txt /etc/init.d/measureit
+sudo cp install/measureit_init_scrip_ubuntu-11.4t.txt /etc/init.d/measureit
+sudo update-rc.d measureit defaults
+sudo chmod +x /etc/init.d/measureit
+}}}
+
+
+If you are using ubuntu 10.4
+{{{
+sudo cp install/measureit_init_scrip_ubuntu-10.4t.txt /etc/init.d/measureit
 sudo update-rc.d measureit defaults
 sudo chmod +x /etc/init.d/measureit
 }}}
