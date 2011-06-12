@@ -10,7 +10,7 @@ You will find contact also about TWITTER:
 
 *Does my system support the USB cable?*
 
-run the following command in your konsole:
+Plug in the cable and run the following command in your konsole:
 {{{
 lsusb
 }}}
@@ -55,7 +55,5 @@ I do not have any experience with virtual systems. However... If the device is a
 
 I take a look in google and found a very good instruction page how to get the device into virtual machine. Thanks to the author!  :)
 [http://techtooltip.wordpress.com/2008/09/12/using-host-serial-port-from-guest-in-virtual-box/ http://techtooltip.wordpress.com/2008/09/12/using-host-serial-port-from-guest-in-virtual-box/]
-
-
 
 
