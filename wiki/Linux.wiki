@@ -10,6 +10,14 @@ The kernel you use you can find out with:
 
 {{{uname -a}}}
 
+You will need:
+a webserver ( apache, lighttpd, etc )
+mysql database server ( version > 5 )
+php5
+
+All further informations you will found below
+
+
 Known issues and solutions when you are running into problems during the setup you will find on the [http://code.google.com/p/measureit/wiki/FAQ faq page] in the wiki
 
 ==Starting with a new system:==
@@ -34,7 +42,7 @@ sudo tar -zxvf measureit-XXX.tgz
 cd measureit-XXX
 }}}
 
-create measurit start script
+create measureit start script
 
 If you are using ubuntu 11.4
 {{{
