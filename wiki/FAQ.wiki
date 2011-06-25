@@ -49,11 +49,22 @@ sudo stty -F /dev/ttyUSB0 57600
 }}}
 
 
+*I receive the XML data but nothing was displayed on the website*
+
+If you have only 1 transmitter from currentcost make sure to to pair it with the "Appliance 1" display. You reach it by press the up/down button on your currentcost device. You will find the appliance id in the right bottom corner ( Envi ). See the instructions from the currentcost website how to pair a device. [http://currentcost.com/product-envi-installation.html Here you will find the installation from the envi]
+
+In the xml data you will find the device id your transmitter is paired with your currentcost device. There you find something like this:
+
+{{{<msg><src>CCdsb>00385</dsb><timemsg><src>CC128-v0.12</srtime>06:52:19</time><tmpr>20.3</tmpr><sensor>2</sensor><id>01674</id><type>1</type><ch1><watts>00236</watts></ch1></msg>}}}
+
+Make sure that there you will see sensor 1. The start screen from the envi is sensor 0.
+
+{{{<sensor>1</sensor>}}}
+
+
 *I install a system into a virtual machine software. I do not found the /dev/ttyUSB0 device*
 
 I do not have any experience with virtual systems. However... If the device is a serial port in your linux guest you will find it under /dev/ttyS0, /dev/ttyS1, /dev/ttyS2 ,....
 
 I take a look in google and found a very good instruction page how to get the device into virtual machine. Thanks to the author!  :)
 [http://techtooltip.wordpress.com/2008/09/12/using-host-serial-port-from-guest-in-virtual-box/ http://techtooltip.wordpress.com/2008/09/12/using-host-serial-port-from-guest-in-virtual-box/]
-
-
