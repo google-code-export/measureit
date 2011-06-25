@@ -61,6 +61,8 @@ Make sure that there you will see sensor 1. The start screen from the envi is se
 
 {{{<sensor>1</sensor>}}}
 
+Measureit does not consider any data from sensor 0
+
 
 *I install a system into a virtual machine software. I do not found the /dev/ttyUSB0 device*
 
