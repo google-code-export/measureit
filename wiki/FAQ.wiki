@@ -57,7 +57,7 @@ In the xml data you will find the device id your transmitter is paired with your
 
 {{{<msg><src>CCdsb>00385</dsb><timemsg><src>CC128-v0.12</srtime>06:52:19</time><tmpr>20.3</tmpr><sensor>2</sensor><id>01674</id><type>1</type><ch1><watts>00236</watts></ch1></msg>}}}
 
-Make sure that there you will see sensor 1. The start screen from the envi is sensor 0.
+Make sure that your sensor has id 1. The start screen from the envi is sensor 0.
 
 {{{<sensor>1</sensor>}}}
 
