@@ -1,4 +1,4 @@
-#labels Featured,import,powermeter,google-powermeter
+#labels import,powermeter,google-powermeter,Featured
 Google is closing the powermeter service in September 2011. You can import your historical powermeter data into the measureit database.
 
 PLEASE NOTE: This is a quick hacked script that will do the work but it is not really tested. I just have a small sample data file with the google datasets. So if you decide to try it make sure to try it with a new created not existing sensor... Then there can nothing happens with your existing data :D
@@ -56,5 +56,3 @@ The result from the import in measureit will not look so nice like the measureit
 *Here are the same rules like in the complete measureit project: FEEDBACK WANTED  :)*
 
 A export from Goole Powermeter can help me to test this script with real data :D   *wink*
-
-
