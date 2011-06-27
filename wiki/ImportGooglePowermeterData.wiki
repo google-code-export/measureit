@@ -1,0 +1,60 @@
+#labels Featured,import,powermeter,google-powermeter
+Google is closing the powermeter service in September 2011. You can import your historical powermeter data into the measureit database.
+
+PLEASE NOTE: This is a quick hacked script that will do the work but it is not really tested. I just have a small sample data file with the google datasets. So if you decide to try it make sure to try it with a new created not existing sensor... Then there can nothing happens with your existing data :D
+If somethings goes wrong just delete the sensor in the measureit admin and everthing is ok.
+
+The script is not a part of the current measureit download version-106. To install it use the following code on your console:
+
+
+
+Change to the directory with your measureit code. Download the powermeter import script.
+{{{
+sudo cd /var/www
+sudo mkdir scripts
+sudo cd scripts
+sudo wget http://code.google.com/p/measureit/source/browse/trunk/scripts/import_google_powermeter.php
+sudo chmod +x import_google_powermeter.php
+}}}
+
+Now place the downloaded file from google powermeter in the same directory or somewhere else on your pc. You need the "raw.csv" file that you can [http://www.google.com/support/powermeter/bin/answer.py?hl=en&answer=164264 download] from google powermeter.
+
+The script uses the database class from measureit. So make sure you can see the the php directory when you do this command:
+
+{{{
+ls -la ../
+}}}
+
+
+*Lets run the script :)*
+
+The script needs 2 parameter. The id from the sensor you has created in the measureit admin and the path to the raw.csv file from google powermeter.
+Here the raw.csv is in the same directory like you ( /var/www/scripts ) and the sensor you are created has id 3
+{{{
+sudo php -f ./import_google_powermeter.php 3 raw.csv
+}}}
+
+Here the sensor id is 2 and the raw.cvs is in /home/frank
+
+{{{
+sudo php -f ./import_google_powermeter.php 2 /home/frank/raw.csv
+}}}
+
+
+The script itself puts out some status messages that may help you. After import you should see some output like this:
+
+
+{{{
+DONE. 19 data rows importet
+
+Importet days: 1
+Importet hours :4
+}}}
+
+The result from the import in measureit will not look so nice like the measureit data because of there are only 10 minute ranges you will receive from google but the usage data are complete and useable after the import.
+
+*Here are the same rules like in the complete measureit project: FEEDBACK WANTED  :)*
+
+A export from Goole Powermeter can help me to test this script with real data :D   *wink*
+
+
