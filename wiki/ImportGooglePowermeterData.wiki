@@ -7,6 +7,7 @@ If somethings goes wrong just delete the sensor in the measureit admin and evert
 The script is not a part of the current measureit download version-106. To install it use the following code on your console:
 
 
+*Since version 107 the import script is a part of the measureit download and you can skip the download step*
 
 Change to the directory with your measureit code. Download the powermeter import script.
 {{{
