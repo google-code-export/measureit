@@ -1,0 +1,98 @@
+#labels update,instructions
+*Version 107*
+
+
+To Update from version 106 you had to replace the following files:
+  * php/measureit_functions.php
+  * php/class.db.php
+  * js/measureit_admin.js
+  * index.html ( only neccesary if you are using Internet Explorer > 8 )
+
+  * Run the following queries on the konsole to enable backup rights to the database client:
+{{{
+echo "GRANT SELECT , INSERT , UPDATE , DELETE, LOCK TABLES ON * . * TO 'measureit'@'localhost' IDENTIFIED BY 'measureitpasswd';" | mysql -uroot -p
+
+echo "FLUSH PRIVILEGES;" | mysql -uroot -p
+}}}
+
+  * To speed up measureit run: ( recommented for every version of measureit )
+{{{
+echo "ALTER TABLE measure_it.measure_watt ADD INDEX time_sensor ( time , sensor );" | mysql -uroot -p
+}}}
+
+If you want to import your google powermeter data add the directory "scripts" in the same directory where are the other directories ( php/js/install/css )
+
+*Version 106*
+
+To update from version 105 you just had to replace the files in your webserver directory.
+
+NOTE: If you are running a ubuntu 10.4 DO NOT change the init script. The init script from 11.4 DOES NOT work with earlier versions.
+
+
+*Version 105*
+
+To update from version 104 you just had to replace this files
+
+  * php/measureit_functions.php
+  * index.html ( only neccesary if you are using Internet Explorer )
+
+
+*Version 104*
+
+
+If you are using already measureit it is recommendet to follow this instructions step by step or you can destroy your database :)
+
+1. Stop the running process from the data-input.php
+This can be done by following command on the konsole:
+{{{
+sudo killall -9 cat
+}}}
+
+Then you had to upgrade your database. You will be asked for the root password of the mysql database server you hopefully remember. Copy and paste the following commands to the konsole:
+Note for advanced users: If you DO NOT use the install instructions from measureit and have your own setup please make sure that mysql IS NOT connected through a socket file. Otherwise you destroy your mysql binary. Then you had to add a " -S/path/to/mysql.sock" at the end of every command
+
+{{{
+echo "CREATE TABLE measure_data_now (sensor_id tinyint(2) NOT NULL, watt smallint(5) NOT NULL, tmpr float NOT NULL, PRIMARY KEY (sensor_id) ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+" | mysql -uroot -p -Dmeasure_it
+
+echo "INSERT INTO measure_data_now (sensor_id, watt, tmpr) VALUES (1, 0, 0), (2, 0, 0), (3, 0, 0), (4, 0, 0), (5, 0, 0), (6, 0, 0), (7, 0, 0), (8, 0, 0), (9, 0, 0);
+" | mysql -uroot -p -Dmeasure_it
+}}}
+
+If you are using MORE THAN 1 SENSOR we had to clean the datebase before we go to the next step. This is very important otherwise you crash your database:
+{{{
+echo "DELETE FROM measure_tmpr_hourly WHERE sensor > 1; DELETE FROM measure_tmpr WHERE sensor > 1;" | mysql -uroot -p -Dmeasure_it
+}}}
+
+The last step indipended you are using more than one sensor or just one:
+{{{
+echo "ALTER TABLE measure_it.measure_tmpr_hourly DROP INDEX data , ADD UNIQUE data ( hour , time );" | mysql -uroot -p -Dmeasure_it
+
+echo "ALTER TABLE measure_tmpr_hourly DROP sensor;" | mysql -uroot -p -Dmeasure_it
+
+echo "ALTER TABLE measure_tmpr DROP sensor;" | mysql -uroot -p -Dmeasure_it
+}}}
+
+Replace the following files with them from version 104:
+  * php/measureit_functions.php
+  * php/data-input.php
+  * index.html
+  * measure_it.css - only if you are using Internet Explorer :D
+
+Thats all. Now start the data-input.php process new:
+{{{
+sudo /etc/init.d/measureit start
+}}}
+
+*Version 103*
+
+
+To update from Version 102
+Stop the running data-import process
+
+Replace the following 3 files:
+  * /css/measure_it.css
+  * /php/measureit_functions.php
+  * index.html
+
+Start the data-import.php and have fun :)
