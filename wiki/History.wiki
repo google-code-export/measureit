@@ -1,0 +1,52 @@
+#labels History
+*Version 107*
+
+  * Add backup function
+  * database update to increase page speed
+  * add google powermeter data import script
+  * ie 9 fixes
+
+*Version 106*
+
+  * seperate the measureit java script from the index.html file into 2 new files 
+  * js/measureit.js
+  * js/measureitadmin.js
+  * fix the cost display from the start page with new created sensors
+  * create new start script for ubuntu 11.4
+  * store 0 watt values to make nice charts
+  * some small bug fixes
+
+*Version 105*
+
+***************************************************
+NOTE: THIS VERSION IS NOT WORKING WITH UBUNTU 11.4. 
+***************************************************
+
+  * Fix bug with temperature function and some additional Internet Explorer issues
+
+*Version 104*
+
+  * Database size:
+The storage measureit needs will be reduced about 40%. This is because of the temperature data was seperatet from the sensors. They are from the base station and not from the sensors itself.
+  * Compatibility:
+measureit now is working with Internet Explorer ( testet with v.8 )
+It looks not perfect like in all other browsers but its quite ok. Maybe I found some time I will fix the rest :)
+  * Page speed:
+If there are more then some million database entries ( about 1,5 years of running with 2 sensors ) the start screen needs about 4 seconds to load. Now it is reduced to 20 milliseconds
+  * Fixed bugs:
+New added sensor position displays the costs without considered the start time and uses the data from the last sensor position too.
+  * Some smaller bugs that needs not to explain in detail
+
+*Version 103*
+
+  * Sensor statistics added
+See the power and money consumptions of all sensors sorted after sensor position and then after year - month - day
+
+*Version 102*
+
+  * A cleaned version. 
+All demo and developer files from jquery ui was removed. If you have version 101 installed you do not need to upgrade. There is just one little difference between this version and 101 that makes the fonts smaller.
+
+*Version 101*
+
+  * First working version
