@@ -6,3 +6,7 @@ This project use additional third party software. Thanks to those developer for 
   * [http://jqueryui.com/ jQuery UI]
   * [http://code.google.com/p/flot/ flot]
   * [http://www.ubuntu.com/ Ubuntu]
+  * [http://www.php.net/ php]
+  * [http://www.mysql.com/ mysql]
+  * [http://www.apache.org/ Apache]
+  * every one I forget...
