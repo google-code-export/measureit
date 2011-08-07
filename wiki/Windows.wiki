@@ -1,4 +1,4 @@
-#labels Phase-Deploy
+#labels Phase-Deploy,windows,setup,install
 I waste some of my valuable life time to get measureit working on windows. That sucks....
 
 :)
@@ -81,4 +81,3 @@ Now your measureit installation should be complete and if you type "localhost/me
 At this point it is time to start the grabbing process. Start the "cmd.exe". You can type it in the search field in your start menu. Windows will find it. Copy and paste this line into the cmd window. Now the data should be grabbed. Leave the cmd window open.
 
 C:\Python27\python.exe C:\xampp\htdocs\measureit\python\data-input-win.py
-
