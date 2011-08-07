@@ -1,4 +1,8 @@
 #labels History
+*Version 108*
+
+  * Add a python script to grab the data from the currentcost device
+
 *Version 107*
 
   * Add backup function
