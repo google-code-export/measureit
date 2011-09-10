@@ -68,5 +68,7 @@ Measureit does not consider any data from sensor 0
 
 I do not have any experience with virtual systems. However... If the device is a serial port in your linux guest you will find it under /dev/ttyS0, /dev/ttyS1, /dev/ttyS2 ,....
 
+On Windows systems it is the com3 device.
+
 I take a look in google and found a very good instruction page how to get the device into virtual machine. Thanks to the author!  :)
 [http://techtooltip.wordpress.com/2008/09/12/using-host-serial-port-from-guest-in-virtual-box/ http://techtooltip.wordpress.com/2008/09/12/using-host-serial-port-from-guest-in-virtual-box/]
