@@ -72,3 +72,24 @@ On Windows systems it is the com3 device.
 
 I take a look in google and found a very good instruction page how to get the device into virtual machine. Thanks to the author!  :)
 [http://techtooltip.wordpress.com/2008/09/12/using-host-serial-port-from-guest-in-virtual-box/ http://techtooltip.wordpress.com/2008/09/12/using-host-serial-port-from-guest-in-virtual-box/]
+
+*Security*
+
+I believe that the most of you will use measureit with a public dyndns domain. There is no problem with this idea but note that everyone who knows this domain or find it with a search engine can add sensor or sensor positions or if this is a evil person can *delete all your data*!
+
+To make shure that this is not happend open the file php/measureit_functions.php with a text editor and replace the following line at the beginning of the script:
+
+replace
+
+{{{$demo = false;}}}
+
+with
+
+{{{$demo = true;}}}
+
+
+After changing this line it is not possible to do the following actions:
+
+see/download/create/delete backups, add/delete sensors, add/delete sensor positions
+
+
