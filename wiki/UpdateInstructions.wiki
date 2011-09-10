@@ -5,6 +5,9 @@ Here you find update instructions if you are using a previous version from measu
 
 Between version 107 and 108 there is no difference. New is a data grabbing script written in python because of php uses 100% cpu on windows systems. If you want to use measureit on a windows system just following the installation instructions in the wiki.
 
+Update: It seems that the file jquery-ui-1.8.1.custom.min.js was broken from packaging. If you want to use measureit-108 replace it with this version:
+http://code.google.com/p/measureit/source/browse/trunk/js/jquery-ui-1.8.1/js/jquery-ui-1.8.1.custom.min.js
+
 *Version 107*
 
 
