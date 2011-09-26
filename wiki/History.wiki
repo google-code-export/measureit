@@ -1,4 +1,17 @@
 #labels History
+*Version 109*
+
+  * Added 2 new charts to display last 7 day usage per hour and last 12 months per day usage.
+http://code.google.com/p/measureit/issues/detail?id=10
+  * fixed broken file
+http://code.google.com/p/measureit/issues/detail?id=3
+  * fixed typo
+http://code.google.com/p/measureit/issues/detail?id=11
+  * fixed php error
+http://code.google.com/p/measureit/issues/detail?id=4
+
+
+
 *Version 108*
 
   * Add a python script to grab the data from the currentcost device
