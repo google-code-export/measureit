@@ -1,6 +1,15 @@
 #labels update,instructions
 Here you find update instructions if you are using a previous version from measureit. If you are new to measureit you can ignore this page. All you need you will find in the download.
 
+*Version 109*
+To update replace the following files
+  * index.html
+  * js/measureit.js
+  * php/measureit_functions.php
+  * js/measureit-admin.js
+  * js/jquery-ui-1.8.1/js/jquery-ui-1.8.16.custom.min.js
+  * css/measure_it.css 
+
 *Version 108*
 
 Between version 107 and 108 there is no difference. New is a data grabbing script written in python because of php uses 100% cpu on windows systems. If you want to use measureit on a windows system just following the installation instructions in the wiki.
