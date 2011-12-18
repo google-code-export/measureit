@@ -65,6 +65,12 @@ setup the database. You will asked for the database root password you hopefully 
 sudo cat install/createdb.sql | mysql -uroot -p
 }}}
 
+remove the install directory
+
+{{{
+sudo rm -R ./install
+}}}
+
 copy the Measureit code to the webserver directory
 
 {{{
