@@ -71,6 +71,12 @@ remove the install directory
 sudo rm -R ./install
 }}}
 
+remove the scrpts directory if you are not plan to use one of them. If you plan to use one of the scripts do not forget to delete this directory after using.
+
+{{{
+sudo rm -R ./scripts
+}}}
+
 copy the Measureit code to the webserver directory
 
 {{{
