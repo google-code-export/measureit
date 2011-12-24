@@ -95,7 +95,7 @@ see/download/create/delete backups, add/delete sensors, add/delete sensor positi
 
 Change the mysql password!
 
-The setup from measureit set a default password with the value "measureitpasswd". If you decide to make measureit available in the internet you *MUST* change it. 
+The setup from measureit set a default password with the value "measureitpasswd". If you decide to make measureit available in the internet you *MUST* change it. Replace the XXXXXXXXXXXXXX with your new password.
 
 {{{
 mysql -uroot -p
