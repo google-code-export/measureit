@@ -104,6 +104,8 @@ update user set Password = password('XXXXXXXXXXXXXX') where User = 'measureit';
 flush privileges;
 }}}
 
+If you use windows and the xammp server you can change the password from the mysql user in phpMyAdmin. You will find it in the user rights settings.
+
 Then edit php/class.db.php and change the password
 {{{
 var $pass                 = "measureitpasswd";
