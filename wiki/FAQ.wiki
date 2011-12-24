@@ -95,7 +95,7 @@ see/download/create/delete backups, add/delete sensors, add/delete sensor positi
 
 Change the mysql password!
 
-The setup from measureit set a default password with the value "measureitpasswd". If you decide to make measureit available in the internet you *MUST* change it. Replace the XXXXXXXXXXXXXX with your new password.
+The setup from measureit set a default password with the value "measureitpasswd". If you decide to make measureit available in the internet you *MUST* change it. Replace the XXXXXXXXXXXXXX with your new password. If you use windows and the xammp server you can change the password from the mysql user in phpMyAdmin. You will find it in the user rights settings.
 
 {{{
 mysql -uroot -p
@@ -103,8 +103,6 @@ use mysql;
 update user set Password = password('XXXXXXXXXXXXXX') where User = 'measureit';
 flush privileges;
 }}}
-
-If you use windows and the xammp server you can change the password from the mysql user in phpMyAdmin. You will find it in the user rights settings.
 
 Then edit php/class.db.php and change the password
 {{{
