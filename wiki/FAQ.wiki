@@ -93,3 +93,19 @@ After changing this line it is not possible to do the following actions:
 see/download/create/delete backups, add/delete sensors, add/delete sensor positions
 
 
+Change the mysql password!
+
+The setup from measureit set a default password with the value "measureitpasswd". If you decide to make measureit available in the internet you *MUST* change it. 
+
+{{{
+mysql -uroot -p
+use mysql;
+update user set Password = password('XXXXXXXXXXXXXX') where User = 'measureit';
+flush privileges;
+}}}
+
+Then edit php/class.db.php and change the password
+{{{
+var $pass                 = "measureitpasswd";
+var $pass                 = "XXXXXXXXXXXXXX";
+}}}
