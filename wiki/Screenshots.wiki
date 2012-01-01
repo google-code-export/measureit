@@ -8,19 +8,31 @@ http://measureit.googlecode.com/svn/screenshots/measureit-overview.jpg
 http://measureit.googlecode.com/svn/screenshots/measureit-overview-reload.jpg
 
  * Overview from a sensor
-http://measureit.googlecode.com/svn/screenshots/measureit-start-sensor.jpg
+http://measureit.googlecode.com/svn/screenshots/sensor_overview.png
 
  * Custom time range data from sensor
 http://measureit.googlecode.com/svn/screenshots/measureit-timerange.jpg
 
  * Daily temperatures
-http://measureit.googlecode.com/svn/screenshots/measureit-temperature.jpg
+http://measureit.googlecode.com/svn/screenshots/temperature.png
+
+ * Daily usage
+http://measureit.googlecode.com/svn/screenshots/year_usage_daily.png
+
+ * Hourly usage
+http://measureit.googlecode.com/svn/screenshots/year_usage_hourly.png
+
+ * Weekly usage
+http://measureit.googlecode.com/svn/screenshots/week_usage_daily.png
+
+ * Monthly usage
+http://measureit.googlecode.com/svn/screenshots/year_usage_monthly.png
 
  * Real time plug and unplug from units ( maccbook power cable off/on then tv on/off )
 http://measureit.googlecode.com/svn/screenshots/measureit-plug-unplug.jpg
 
  * Admin interface
-http://measureit.googlecode.com/svn/screenshots/measureit-admin.jpg
+http://measureit.googlecode.com/svn/screenshots/sensor_settings.png
 
  * Sensor statististic
 http://measureit.googlecode.com/svn/screenshots/measureit-sensor-statistic.jpg
