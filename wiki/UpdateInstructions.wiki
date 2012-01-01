@@ -1,7 +1,35 @@
 #labels update,instructions
 Here you find update instructions if you are using a previous version from measureit. If you are new to measureit you can ignore this page. All you need you will find in the download.
 
+*Version 110*
+
+To update replace the following files
+  * index.html
+  * js/flot (complete directory)
+  * js/measureit.js
+  * php/measureit_functions.php
+  * css/measure_it.css
+  * js/jquery-1.4.2.min.js with js/jquery-1.7.1.min.js
+
+remove the following files
+  * js/measureit-admin.js
+
+add the following files
+  * img (directory)
+
+Run the following queries on the konsole:
+{{{
+echo "ALTER TABLE `measure_settings` ADD `measure_timezone_diff` SMALLINT( 4 ) NOT NULL DEFAULT '0';" | mysql -uroot -p
+}}}
+
+Or if you are using phpMyAdmin choose the measure_it database and run this SQL
+{{{
+ALTER TABLE `measure_settings` ADD `measure_timezone_diff` SMALLINT( 4 ) NOT NULL DEFAULT '0';
+}}} 
+
+
 *Version 109*
+
 To update replace the following files
   * index.html
   * js/measureit.js
