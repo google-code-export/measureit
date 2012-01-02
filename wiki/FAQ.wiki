@@ -109,3 +109,15 @@ Then edit php/class.db.php and change the password
 var $pass                 = "measureitpasswd";
 var $pass                 = "XXXXXXXXXXXXXX";
 }}}
+
+*Does measureit supports multiple clambs per sensor?*
+
+Currently not. I use no clambs because of I do not have an usecase. 
+There where some requests to add this feature. It is possible to add this feature so I decide to start a wishlist on Amazon. If you are very interested to get this feature feel free to make me 1 or more clambs as a gift. When I has some clambs I will try to find a usecase and start programming..   :)
+
+I put some articles on this list to make more usecases available as they are requested. Things like multiple base stations and much more.
+
+[http://www.amazon.co.uk/registry/wishlist/9VF9EXIQPT71 here you find my wish list on amazon.co.uk]
+
+
+ 
