@@ -119,5 +119,9 @@ I put some articles on this list to make more usecases available as they are req
 
 [http://www.amazon.co.uk/registry/wishlist/9VF9EXIQPT71 here you find my wish list on amazon.co.uk]
 
+*Measureit does not work with Internet Explorer version X*
+
+The Internet Explorer is a bug and not a browser. I do not waste any private lifetime to get things working with IE. Measureit works with Safari, Firefox, Chrome and Opera.
+
 
  
