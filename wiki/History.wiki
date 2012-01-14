@@ -1,4 +1,17 @@
 #labels History
+*Version 111*
+ 
+  * In the sensor overview there are now arrows to add additional data to the graph. Always + or - 2 hours
+  * Usage graphs per day and per hour from the last 365 days
+  * Set the difference in hours from the gmt time. + or - values are possible. This is a per sensor setting.
+  * Admin part was not useable with chrome
+  * Errormessages from php when using date/time functions
+  * 404 not found excanvas.min.js
+  * Update from jquery and flot
+
+*Version 110*
+  * In version 109 there is missing the install folder in the package. This version is the same like 109 but complete :)
+
 *Version 109*
 
   * Added 2 new charts to display last 7 day usage per hour and last 12 months per day usage.
