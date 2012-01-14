@@ -1,7 +1,7 @@
 #labels update,instructions
 Here you find update instructions if you are using a previous version from measureit. If you are new to measureit you can ignore this page. All you need you will find in the download.
 
-*Version 110*
+*Version 110 -> Version 111*
 
 To update replace the following files
   * index.html
@@ -28,7 +28,7 @@ ALTER TABLE `measure_settings` ADD `measure_timezone_diff` SMALLINT( 4 ) NOT NUL
 }}} 
 
 
-*Version 109*
+*Version 109 -> Version 110*
 
 To update replace the following files
   * index.html
@@ -38,14 +38,14 @@ To update replace the following files
   * js/jquery-ui-1.8.1/js/jquery-ui-1.8.16.custom.min.js
   * css/measure_it.css 
 
-*Version 108*
+*Version 108 -> Version 109*
 
 Between version 107 and 108 there is no difference. New is a data grabbing script written in python because of php uses 100% cpu on windows systems. If you want to use measureit on a windows system just following the installation instructions in the wiki.
 
 Update: It seems that the file jquery-ui-1.8.1.custom.min.js was broken from packaging. If you want to use measureit-108 replace it with this version:
 http://code.google.com/p/measureit/source/browse/trunk/js/jquery-ui-1.8.1/js/jquery-ui-1.8.1.custom.min.js
 
-*Version 107*
+*Version 107-> Version 108*
 
 
 To Update from version 106 you had to replace the following files:
@@ -68,14 +68,14 @@ echo "ALTER TABLE measure_it.measure_watt ADD INDEX time_sensor ( time , sensor 
 
 If you want to import your google powermeter data add the directory "scripts" in the same directory where are the other directories ( php/js/install/css )
 
-*Version 106*
+*Version 106-> Version 107*
 
 To update from version 105 you just had to replace the files in your webserver directory.
 
 NOTE: If you are running a ubuntu 10.4 DO NOT change the init script. The init script from 11.4 DOES NOT work with earlier versions.
 
 
-*Version 105*
+*Version 105-> Version 106*
 
 To update from version 104 you just had to replace this files
 
@@ -83,7 +83,7 @@ To update from version 104 you just had to replace this files
   * index.html ( only neccesary if you are using Internet Explorer )
 
 
-*Version 104*
+*Version 104-> Version 105*
 
 
 If you are using already measureit it is recommendet to follow this instructions step by step or you can destroy your database :)
@@ -130,7 +130,7 @@ Thats all. Now start the data-input.php process new:
 sudo /etc/init.d/measureit start
 }}}
 
-*Version 103*
+*Version 103-> Version 104*
 
 
 To update from Version 102
