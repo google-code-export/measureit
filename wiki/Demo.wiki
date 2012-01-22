@@ -1,7 +1,10 @@
 #labels demo,Featured
 A working demo you will find [http://lalelunet.dyndns.org/ here]
 
-Please note: This is my development machine. If you receive error messages than I am working at this project :)
+Please note: This is my development machine. If you receive error messages than I am working at this project 
+Since 2012-01-21 my arduino Board is arrived an there are no data because of developing with my cc128 and the arduino ;)
+
+:)
 
 
 Some features are deactivated in this environment. You can not add or delete sensors, positions or change settings from existing sensors.
