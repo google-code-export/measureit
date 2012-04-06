@@ -1,6 +1,47 @@
 #labels update,instructions
 Here you find update instructions if you are using a previous version from measureit. If you are new to measureit you can ignore this page. All you need you will find in the download.
 
+*Version 111 -> Version 112*
+
+Between the last version there are so many differences that it is the easiest way to update is to replace the complete files with the new version and edit the database file again.
+
+Run the following queries on the konsole:
+
+{{{
+echo "ALTER TABLE  measure_sensors ADD  sensor_clamp TINYINT( 1 ) NOT NULL DEFAULT  '0'" | mysql -uroot -p
+}}}
+
+{{{
+echo "ALTER TABLE  measure_settings CHANGE  measure_sensor  measure_sensor TINYINT( 5 ) NOT NULL" | mysql -uroot -p
+}}}
+{{{
+echo "ALTER TABLE  measure_positions CHANGE  position_sensor  position_sensor TINYINT( 5 ) NOT NULL" | mysql -uroot -p
+}}}
+{{{
+echo "ALTER TABLE  measure_watt CHANGE  sensor  sensor TINYINT( 5 ) NOT NULL" | mysql -uroot -p
+}}}
+
+{{{
+echo "ALTER TABLE  measure_settings CHANGE  measure_history  measure_history SMALLINT( 6 ) NOT NULL DEFAULT  '365',
+CHANGE  measure_currency  measure_currency VARCHAR( 5 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT  'Pound',
+CHANGE  measure_price  measure_price FLOAT NOT NULL DEFAULT  '0.0021',
+CHANGE  measure_timezone_diff  measure_timezone_diff SMALLINT( 4 ) NOT NULL DEFAULT  '0'" | mysql -uroot -p
+}}}
+
+Or if you are using phpMyAdmin choose the measure_it database and run this SQL
+{{{
+ALTER TABLE  measure_watt CHANGE  sensor  sensor TINYINT( 5 ) NOT NULL
+ALTER TABLE  measure_positions CHANGE  position_sensor  position_sensor TINYINT( 5 ) NOT NULL
+ALTER TABLE  measure_settings CHANGE  measure_sensor  measure_sensor TINYINT( 5 ) NOT NULL
+ALTER TABLE  measure_sensors ADD  sensor_clamp TINYINT( 1 ) NOT NULL DEFAULT  '0'
+
+ALTER TABLE  measure_settings CHANGE  measure_history  measure_history SMALLINT( 6 ) NOT NULL DEFAULT  '365',
+CHANGE  measure_currency  measure_currency VARCHAR( 5 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT  'Pound',
+CHANGE  measure_price  measure_price FLOAT NOT NULL DEFAULT  '0.0021',
+CHANGE  measure_timezone_diff  measure_timezone_diff SMALLINT( 4 ) NOT NULL DEFAULT  '0'
+}}} 
+
+
 *Version 110 -> Version 111*
 
 To update replace the following files
