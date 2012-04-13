@@ -68,6 +68,11 @@ If you use the windows installation from this site all modules are already insta
 
 Replace you init file: /etc/init.d/measureit
 
+Edit the database connecting files to fit to your settings:
+
+php/class.db.php
+python/data-input.py
+
 
 *Version 110 -> Version 111*
 
