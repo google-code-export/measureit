@@ -72,9 +72,8 @@ Replace you init file: /etc/init.d/measureit
 
 Edit the database connecting files to fit to your settings:
 
-php/class.db.php
-
-python/data-input.py
+ * php/class.db.php
+ * python/data-input.py
 
 
 *Version 110 -> Version 111*
