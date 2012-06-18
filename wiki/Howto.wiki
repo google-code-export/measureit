@@ -1,4 +1,4 @@
-#labels usageandsettings
+#labels usage,settings
 = Usage / Setup from measureit =
 
 ==Setup==
