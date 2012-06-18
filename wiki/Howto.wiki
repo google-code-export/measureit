@@ -1,6 +1,8 @@
 #labels usage,settings
 = Usage / Setup from measureit =
 
+Here you will find the options you can set in measureit. If you run into problems see the  [https://code.google.com/p/measureit/wiki/FAQ FAQ]
+
 ==Setup==
 
   * Add Sensor
