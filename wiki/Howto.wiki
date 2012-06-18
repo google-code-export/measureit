@@ -26,7 +26,7 @@ Here you will find the options you can set in measureit. If you run into problem
     * If you will measure the power consumption from different devices you can add a new position for each device. So if you decide to measure your TV add the position TV and add a new position for every new device you want to measure. Every sensor or clamp should have at least 1 position. The position name is used in the top navigation as current sensor name. If you delete a position only the position will be deleted. The usage data is not lost.
 
   * Settings
-    * If the timezone setting from a sensor or clamp is different from the default system setting you can change it here
+    * If the timezone setting from a sensor or clamp is different from the default system setting you can change it here. Every sensor even every clamp can be in his own timezone :)
     * Here you can set the currency from your country. It is just a text that is displayed in measureit where prices will shown. The default setting from new sensors and clamps are Euro
     * If you wish to hold history data for a different period of time than the default setting from 365 days you can overwrite it for every sensor or clamp. You must restart the grabber script after changing this setting.
   * Prices can be overwritten for every sensor or clamp if the sensor is using different prices than the prices in the system settings.
