@@ -1,4 +1,18 @@
 #labels History
+*Version 112*
+ 
+  * Display usage data from all clamps. 
+  * Multiple prices per day. Price changes are supported.
+    * https://code.google.com/p/measureit/issues/detail?id=9
+  * Add Sensor ID 0 ( default sensor id from currentcost )
+    * https://code.google.com/p/measureit/issues/detail?id=7
+  * Fixed timezone bug
+    * https://code.google.com/p/measureit/issues/detail?id=13
+  * New grabbing script written in python
+    * https://code.google.com/p/measureit/issues/detail?id=12
+    * https://code.google.com/p/measureit/issues/detail?id=14
+
+
 *Version 111*
  
   * In the sensor overview there are now arrows to add additional data to the graph. Always + or - 2 hours
@@ -15,13 +29,13 @@
 *Version 109*
 
   * Added 2 new charts to display last 7 day usage per hour and last 12 months per day usage.
-  * http://code.google.com/p/measureit/issues/detail?id=10
+    * http://code.google.com/p/measureit/issues/detail?id=10
   * fixed broken file
-  * http://code.google.com/p/measureit/issues/detail?id=3
+    * http://code.google.com/p/measureit/issues/detail?id=3
   * fixed typo
-  * http://code.google.com/p/measureit/issues/detail?id=11
+    * http://code.google.com/p/measureit/issues/detail?id=11
   * fixed php error
-  * http://code.google.com/p/measureit/issues/detail?id=4
+    * http://code.google.com/p/measureit/issues/detail?id=4
 
 
 
