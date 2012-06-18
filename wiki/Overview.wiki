@@ -6,7 +6,6 @@ Overview of the project
 
 == Details ==
   * [http://code.google.com/p/measureit/wiki/Screenshots Screenshots (always avaiable)]
-  * [http://code.google.com/p/measureit/wiki/Demo Demo ( mostly available )]
   * [http://code.google.com/p/measureit/wiki/Requirements Requirements]
   * [http://code.google.com/p/measureit/wiki/Install Install]
   * [http://code.google.com/p/measureit/wiki/FAQ FAQ]
