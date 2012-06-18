@@ -34,6 +34,8 @@ http://measureit.googlecode.com/svn/screenshots/measureit-plug-unplug.jpg
  * Admin interface
 http://measureit.googlecode.com/svn/screenshots/sensor_settings.png
 
+http://measureit.googlecode.com/svn/screenshots/price1.png http://measureit.googlecode.com/svn/screenshots/price2.png
+
  * Sensor statististic
 http://measureit.googlecode.com/svn/screenshots/measureit-sensor-statistic.jpg
 
