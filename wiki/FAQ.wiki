@@ -112,10 +112,12 @@ var $pass                 = "XXXXXXXXXXXXXX";
 
 *Does measureit supports multiple clambs per sensor?*
 
-Currently not. I use no clambs because of I do not have an usecase. 
-There where some requests to add this feature. It is possible to add this feature so I decide to start a wishlist on Amazon. If you are very interested to get this feature feel free to make me 1 or more clambs as a gift. When I has some clambs I will try to find a usecase and start programming..   :)
+Currently not. In version 112 that will be released in July 2012 you will have clamp support. 
+*Thanks to Ivo from Switzerland*. He is the gui who sponsored the clamps for developing.
 
-I put some articles on this list to make more usecases available as they are requested. Things like multiple base stations and much more.
+*Does measureit supports IAMS (Individial Appliance Monitor)?*
+
+Maybe.. I can not say anything to iams. The european iams are available since some weeks but I do not have one. If you are interested in this feature feel free to sponsor me some iams and I will find it out...  :)
 
 [http://www.amazon.co.uk/registry/wishlist/9VF9EXIQPT71 here you find my wish list on amazon.co.uk]
 
