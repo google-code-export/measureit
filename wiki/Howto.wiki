@@ -36,7 +36,7 @@ Here you will find the options you can set in measureit. If you run into problem
 
  ==Prices==
 
-  * You can setup multiple prices per day. To create a price chose the date from where this price is and add the first time range and the price for it. The price is the price for 1 kwh. F.e. 22 if you will pay 0,22 sFr/Pond/Euro. If the time range is from 06:00 AM in the morning until 10:00 PM ( 06:00 - 22:00 ) then choose 06:00 AM - 09:59 AM. after saving you can add more timeframes. If your energy provider is changing your price you can add a new price.
+  * You can setup multiple prices per day. To create a price chose the date from where this price is and add the first time range and the price for it. The price is the price for 1 kwh. F.e. 22 if you will pay 0,22 sFr/Pond/Euro. If the time range is from 06:00 AM in the morning until 10:00 PM ( 06:00 - 22:00 ) then choose 06:00 AM - 09:59 PM. After saving you can add more timeframes. If your energy provider is changing your price you can add a new price.
 
 ==Clamps and sensors==
 
