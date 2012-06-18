@@ -8,6 +8,7 @@ Overview of the project
   * [http://code.google.com/p/measureit/wiki/Screenshots Screenshots (always avaiable)]
   * [http://code.google.com/p/measureit/wiki/Requirements Requirements]
   * [http://code.google.com/p/measureit/wiki/Install Install]
+  * [https://code.google.com/p/measureit/wiki/Howto Setup from sensors and clamps in measureit]
   * [http://code.google.com/p/measureit/wiki/FAQ FAQ]
   * [http://code.google.com/p/measureit/wiki/UpdateInstructions Update instructions]
   * [http://code.google.com/p/measureit/wiki/History History]
