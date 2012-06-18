@@ -1,4 +1,4 @@
-#labels demo,Featured
+#labels demo
 Currently there is no demo version available. 
 
 Take a look at the screenshots meanwhile:
