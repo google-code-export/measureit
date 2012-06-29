@@ -1,7 +1,14 @@
 #labels Phase-Deploy,windows,setup,install
-I waste some of my valuable life time to get measureit working on windows. That sucks....
+*PLEASE NOTE:*
 
-:)
+This are the install instructions from measureit version 112 that will be released in July 2012. Please be patient and do not install version 111.
+
+Meanwhile you can install the software you will need to run measureit.
+
+Thank you.
+
+----
+
 
 You had to install some software to get this thing running. The URLs to the pages are from the packages I use. These sites must not be the "original pages". They come up on my search in the internet. There are certainly more sites that share these packages...
 
@@ -19,7 +26,7 @@ The server structure XAMPP you can get from apachefriends. Download the installe
 [http://www.apachefriends.org/en/xampp-windows.html http://www.apachefriends.org/en/xampp-windows.html]
 
 ====Python Packages====
-The grabber script is written in python because of php on windows is unusable....
+The grabber script is written in python. You had to install python and the necessary modules.
 
 FROM NOW USE THE 32 BIT VERSIONS even if you are running a Windows with 64 bit support.
 
@@ -52,7 +59,10 @@ If you are on a 64bit system you had to use the version 2.4 from pyserial and yo
 
 ====Finally the installation from measureit starts==== 
 
-From here I will answer questions if you have any problems. Just create a new [http://code.google.com/p/measureit/issues/list Issue]
+Known issues and solutions when you are running into problems during the setup you will find on the [http://code.google.com/p/measureit/wiki/FAQ faq page] in the wiki
+
+From here I will answer questions if you have any problems you will not found in the [http://code.google.com/p/measureit/wiki/FAQ faq page] . 
+Then create a new [http://code.google.com/p/measureit/issues/list Issue]
 
 
 ====Download the latest version from measureit====
@@ -80,6 +90,8 @@ Now your measureit installation should be complete and if you type "localhost/me
 
 At this point it is time to start the grabbing process. Start the "cmd.exe". You can type it in the search field in your start menu. Windows will find it. Copy and paste this line into the cmd window. Now the data should be grabbed. Leave the cmd window open.
 
+If you are more familiar with windows systems than me feel free to share you information about creating a system service that will start automatically with windows 
+
 C:\Python27\python.exe C:\xampp\htdocs\measureit\python\data-input-win.py
 
 Delete the install folder and the scripts folder. 
@@ -89,6 +101,7 @@ C:\xampp\htdocs\measureit\install
 C:\xampp\htdocs\measureit\scripts
 
 
-
-
 [http://code.google.com/p/measureit/wiki/FAQ AND NOW GO TO THE FAQ PAGE AND READ THE SECURITY PART. THIS IS IMPORTANT!       :)]
+
+
+[https://code.google.com/p/measureit/wiki/Howto Here you will find informations to set up your sensors and clamps and other useful informations how to use measureit]
