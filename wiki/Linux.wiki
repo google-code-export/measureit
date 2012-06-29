@@ -7,7 +7,7 @@ Feel free to install a running linux system meanwhile.
 
 Thank you.
 
-
+----
 
 == Install on a already running Linux ==
 
