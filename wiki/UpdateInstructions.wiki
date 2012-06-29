@@ -5,58 +5,13 @@ Here you find update instructions if you are using a previous version from measu
 
 Between the last version there are so many differences that it is the easiest way to update is to replace the complete files with the new version and edit the database file again.
 
-Run the following queries on the konsole:
+Execute the update script for the mysql database from the install folder from version 112:
 
 {{{
-echo "CREATE TABLE IF NOT EXISTS measure_system (
-  measure_system_setting_id int(11) NOT NULL AUTO_INCREMENT,
-  measure_system_setting_name varchar(256) NOT NULL,
-  measure_system_setting_value varchar(256) NOT NULL,
-  PRIMARY KEY (measure_system_setting_id)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;" | mysql -uroot -p
+sudo cat install/update_111_to_112.sql | mysql -uroot -p
 }}}
 
-{{{
-echo "ALTER TABLE  measure_sensors ADD  sensor_clamp TINYINT( 1 ) NOT NULL DEFAULT  '0'" | mysql -uroot -p
-}}}
-
-{{{
-echo "ALTER TABLE  measure_settings CHANGE  measure_sensor  measure_sensor TINYINT( 5 ) NOT NULL" | mysql -uroot -p
-}}}
-{{{
-echo "ALTER TABLE  measure_positions CHANGE  position_sensor  position_sensor TINYINT( 5 ) NOT NULL" | mysql -uroot -p
-}}}
-{{{
-echo "ALTER TABLE  measure_watt CHANGE  sensor  sensor TINYINT( 5 ) NOT NULL" | mysql -uroot -p
-}}}
-
-{{{
-echo "ALTER TABLE  measure_settings CHANGE  measure_history  measure_history SMALLINT( 6 ) NOT NULL DEFAULT  '365',
-CHANGE  measure_currency  measure_currency VARCHAR( 5 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT  'Pound',
-CHANGE  measure_price  measure_price FLOAT NOT NULL DEFAULT  '0.0021',
-CHANGE  measure_timezone_diff  measure_timezone_diff SMALLINT( 4 ) NOT NULL DEFAULT  '0'" | mysql -uroot -p
-}}}
-
-Or if you are using phpMyAdmin choose the measure_it database and run this SQL
-
-{{{
-CREATE TABLE IF NOT EXISTS measure_system (
-  measure_system_setting_id int(11) NOT NULL AUTO_INCREMENT,
-  measure_system_setting_name varchar(256) NOT NULL,
-  measure_system_setting_value varchar(256) NOT NULL,
-  PRIMARY KEY (measure_system_setting_id)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
-
-ALTER TABLE  measure_watt CHANGE  sensor  sensor TINYINT( 5 ) NOT NULL
-ALTER TABLE  measure_positions CHANGE  position_sensor  position_sensor TINYINT( 5 ) NOT NULL
-ALTER TABLE  measure_settings CHANGE  measure_sensor  measure_sensor TINYINT( 5 ) NOT NULL
-ALTER TABLE  measure_sensors ADD  sensor_clamp TINYINT( 1 ) NOT NULL DEFAULT  '0'
-
-ALTER TABLE  measure_settings CHANGE  measure_history  measure_history SMALLINT( 6 ) NOT NULL DEFAULT  '365',
-CHANGE  measure_currency  measure_currency VARCHAR( 5 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT  'Pound',
-CHANGE  measure_price  measure_price FLOAT NOT NULL DEFAULT  '0.0021',
-CHANGE  measure_timezone_diff  measure_timezone_diff SMALLINT( 4 ) NOT NULL DEFAULT  '0'
-}}} 
+Or if you are using phpMyAdmin choose SQL and upload the update_111_to_112.sql file
 
 The grabber script is written in python. It is working on windows and on linux. The php grabber script is not longer supported from now on. Python and the necessary modules should be installed on the most linux operating systems. On Ubuntu I need to install the mysql module. 
 
