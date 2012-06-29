@@ -1,7 +1,17 @@
 #labels linux,Phase-Deploy,setup,install
+*PLEASE NOTE:*
+
+This are the install instructions from measureit version 112 that will be released in July 2012. Please be patient and do not install version 111. The update process is not really user friendly for people without linux skills :)
+
+Feel free to install a running linux system meanwhile.
+
+Thank you.
+
+
+
 == Install on a already running Linux ==
 
-The data cable driver you need is only available since kernel version 2.6.30
+The data cable driver you need is available since kernel version 2.6.30
 
 *If you have already a running Linux test if your kernel support the data cable:*
 
@@ -11,7 +21,7 @@ The kernel you use you can find out with:
 {{{uname -a}}}
 
 You will need:
-a webserver ( apache, lighttpd, etc )
+a webserver ( apache, lighttpd, nginx, etc )
 mysql database server ( version > 5 )
 php5
 
@@ -22,11 +32,14 @@ Known issues and solutions when you are running into problems during the setup y
 
 ==Starting with a new system:==
 
-Debian Lenny has no driver support to the data cable so I use a [http://www.ubuntu.com/ Ubuntu Desktop Version] that is easy to install.
+Debian Lenny / Squeeze does not work with the data cable so I use a [http://www.ubuntu.com/ Ubuntu Desktop Version] that is easy to install.
 After downloading and install you have a ready to use linux system.
 Open "Konsole". You will find it under applications.
 
+If you get the data cable working on a debian system feel free to tell me how :)
+
 Copy and paste every from the following lines into the konsole and press enter. During the installation you will asked for a password for the database user root. Remember this password!
+
 {{{
 sudo apt-get install php5-cgi php5-cli apache2 mysql-server libapache2-mod-php5 php5-mysql
 }}}
@@ -65,24 +78,43 @@ setup the database. You will asked for the database root password you hopefully 
 sudo cat install/createdb.sql | mysql -uroot -p
 }}}
 
-remove the install and python(this is only used on windows systems) directory
+remove the install directory
 
 {{{
 sudo rm -R ./install
-sudo rm -R ./python
 }}}
 
-remove the scrpts directory if you are not plan to use one of them. If you plan to use one of the scripts do not forget to delete this directory after using.
+remove the scripts directory if you are not plan to use one of them. If you plan to use one of the scripts do not forget to delete this directory after using.
 
 {{{
 sudo rm -R ./scripts
 }}}
 
-copy the Measureit code to the webserver directory
+copy the Measureit code to the webserver directory and give the webserver the rights to read and write the directory
 
 {{{
 sudo cp -fr ./* /var/www
 sudo chown -R www-data:www-data /var/www
+sudo chmod -R 775 /var/www
+}}}
+
+The grabber script is written in python. It is working on windows and on linux. Python and the necessary modules should be installed on the most linux operating systems. On Ubuntu I need to install the mysql module. 
+
+{{{
+sudo apt-get install python-mysqldb
+}}}
+
+If you get error messages from python about missing modules you had to install these. Modules used by measureit are:
+{{{
+serial
+re
+MySQLdb
+datetime
+warnings
+time
+threading
+sys
+platform
 }}}
 
 start grabbing the data
@@ -92,6 +124,8 @@ sudo /etc/init.d/measureit start
 }}}
 
 You are done!
-Use the Firefox Browser an type in localhost. You can see the start page. Go to the tab Setup and change the data from the sensor or add additional sensors. Have a lot of fun :)
+Open your Browser an type in localhost. You can see the start page. Go to the tab Setup and change the data from the sensor or add additional sensors. Have a lot of fun :)
 
 [http://code.google.com/p/measureit/wiki/FAQ AND NOW GO TO THE FAQ PAGE AND READ THE SECURITY PART. THIS IS IMPORTANT!       :)]
+
+[https://code.google.com/p/measureit/wiki/Howto Here you will find informations to set up your sensors and clamps and other useful informations how to use measureit]
