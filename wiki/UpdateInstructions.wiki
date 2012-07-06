@@ -3,7 +3,7 @@ Here you find update instructions if you are using a previous version from measu
 
 *Version 111 -> Version 112*
 
-Between the last version there are so many differences that it is the easiest way to update is to replace the complete files with the new version and edit the database file again.
+Between the last version there are so many differences that it is the easiest way to update is to replace the complete files with the new version and edit the database files again.
 
 Execute the update script for the mysql database from the install folder from version 112:
 
