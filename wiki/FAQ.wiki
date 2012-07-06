@@ -2,7 +2,7 @@
 If there are any questions about using or installing measureit feel free to ask  them :)
 Just create a new [http://code.google.com/p/measureit/issues/list issue]. 
 
-You will find contact also about TWITTER:
+You will find also contact on TWITTER:
 
 [http://twitter.com/#!/measureitsoft @measureitsoft] 
 
@@ -20,7 +20,6 @@ Bus 002 Device 002: ID 067b:2303 Prolific Technology, Inc. PL2303 Serial Port
 Then your USB cable should be supported from your system
 
 
-
 *Does my system receive data from my currentcost device?*
 
 run the following command in your konsole:
@@ -31,6 +30,7 @@ sudo cat /dev/ttyUSB0
 You should now see the xml data stream
 Press ctrl+c to get back control of the konsole
 
+On windows systems you can use the "C2 Terminal" software from currentcost.
 
 
 *I receive no data although the system supports the USB cable*
@@ -51,17 +51,16 @@ sudo stty -F /dev/ttyUSB0 57600
 
 *I receive the XML data but nothing was displayed on the website*
 
-If you have only 1 transmitter from currentcost make sure to to pair it with the "Appliance 1" display. You reach it by press the up/down button on your currentcost device. You will find the appliance id in the right bottom corner ( Envi ). See the instructions from the currentcost website how to pair a device. [http://currentcost.com/product-envi-installation.html Here you will find the installation from the envi]
+Control that your appliance id is the same like the sensor id in measureit. You will find the appliance id in the right bottom corner ( Envi ). See the instructions from the currentcost website how to pair a device. [http://currentcost.com/product-envi-installation.html Here you will find the installation from the envi]
 
-In the xml data you will find the device id your transmitter is paired with your currentcost device. There you find something like this:
+In the xml data you will find the device id from your transmitter and how it is paired with your currentcost device. There you find something like this:
 
-{{{<msg><src>CCdsb>00385</dsb><timemsg><src>CC128-v0.12</srtime>06:52:19</time><tmpr>20.3</tmpr><sensor>2</sensor><id>01674</id><type>1</type><ch1><watts>00236</watts></ch1></msg>}}}
-
-Make sure that your sensor has id 1. The start screen from the envi is sensor 0.
+{{{<msg><src>CCdsb>00385</dsb><timemsg><src>CC128-v0.12</srtime>06:52:19</time><tmpr>20.3</tmpr><sensor>1</sensor><id>01674</id><type>1</type><ch1><watts>00236</watts></ch1></msg>}}}
 
 {{{<sensor>1</sensor>}}}
 
-Measureit does not consider any data from sensor 0
+
+In this example make sure that your sensor has id 1. The start screen from the envi is sensor 0.
 
 
 *I install a system into a virtual machine software. I do not found the /dev/ttyUSB0 device*
@@ -110,9 +109,15 @@ var $pass                 = "measureitpasswd";
 var $pass                 = "XXXXXXXXXXXXXX";
 }}}
 
+
+You also had to change the password in the grabber script python/data-input.py
+{{{
+mysql = MySQLdb.connect(host="localhost",port=3306,user="measureit",passwd="XXXXXXXXXXXXXX",db="measure_it" )
+}}}
+
 *Does measureit supports multiple clambs per sensor?*
 
-Currently not. In version 112 that will be released in July 2012 you will have clamp support. 
+Since version 112 you will have clamp support. 
 *Thanks to Ivo from Switzerland*. He is the gui who sponsored the clamps for developing.
 
 *Does measureit supports IAMS (Individial Appliance Monitor)?*
