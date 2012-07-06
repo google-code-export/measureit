@@ -92,7 +92,7 @@ At this point it is time to start the grabbing process. Start the "cmd.exe". You
 
 If you are more familiar with windows systems than me feel free to share you information about creating a system service that will start automatically with windows 
 
-C:\Python27\python.exe C:\xampp\htdocs\measureit\python\data-input-win.py
+C:\Python27\python.exe C:\xampp\htdocs\measureit\python\data-input.py
 
 Delete the install folder and the scripts folder. 
 
