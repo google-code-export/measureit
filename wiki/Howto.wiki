@@ -17,6 +17,7 @@ Here you will find the options you can set in measureit. If you run into problem
   * System settings
     * If you will use global prices for all sensors then you can add your price here. 
     * If the timezone setting is used all sensors will be in the same timezone. 
+    * Choose your language. ( You had to reload the windows ) 
 
 
 
