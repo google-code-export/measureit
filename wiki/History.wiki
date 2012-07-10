@@ -11,7 +11,7 @@
   * New grabbing script written in python
     * https://code.google.com/p/measureit/issues/detail?id=12
     * https://code.google.com/p/measureit/issues/detail?id=14
-
+  * Multiple language support
 
 *Version 111*
  
