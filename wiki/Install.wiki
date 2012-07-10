@@ -1,10 +1,10 @@
 #labels Phase-Deploy,install,setup
 ==Install==
 
-It is recommented to use a old not longer used pc. this can be an very old one. Monitor, mouse and keyboard can be removed after setup. The setup does not longer than about 30 minutes and is not difficult even if you are not a computer expert. The setup describes a new installation of a linux system ( Ubuntu ).
+The setup does not longer than about 30 minutes and is not difficult even if you are not a computer expert. The setup describes a new installation. For update instructions see the [https://code.google.com/p/measureit/wiki/UpdateInstructions update page]
  *  [http://code.google.com/p/measureit/wiki/Linux Linux]
  *  [http://code.google.com/p/measureit/wiki/Windows Windows]
- * Mac
+ * Raspberry Pi ( coming if I receive my pi )
  * ....
 
 Everyone is  welcome to describe your experience with your operating system or start developing a working version for other unix os or wathever system you use
