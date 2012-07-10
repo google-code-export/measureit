@@ -1,6 +1,0 @@
-#labels demo
-Currently there is no demo version available. 
-
-Take a look at the screenshots meanwhile:
-
-[https://code.google.com/p/measureit/wiki/Screenshots Screenshots]
