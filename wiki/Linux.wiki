@@ -57,17 +57,8 @@ cd measureit-XXX
 
 create measureit start script
 
-If you are using ubuntu 11.4
 {{{
-sudo cp install/measureit_init_script_ubuntu-11.4.txt /etc/init.d/measureit
-sudo update-rc.d measureit defaults
-sudo chmod +x /etc/init.d/measureit
-}}}
-
-
-If you are using ubuntu 10.4
-{{{
-sudo cp install/measureit_init_script_ubuntu-10.4.txt /etc/init.d/measureit
+sudo cp install/measureit_init_script.txt /etc/init.d/measureit
 sudo update-rc.d measureit defaults
 sudo chmod +x /etc/init.d/measureit
 }}}
