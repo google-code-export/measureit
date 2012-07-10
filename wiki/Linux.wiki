@@ -1,13 +1,5 @@
 #labels linux,Phase-Deploy,setup,install
-*PLEASE NOTE:*
 
-This are the install instructions from measureit version 112 that will be released in July 2012. Please be patient and do not install version 111. The update process is not really user friendly for people without linux skills :)
-
-Feel free to install a running linux system meanwhile.
-
-Thank you.
-
-----
 
 == Install on a already running Linux ==
 
