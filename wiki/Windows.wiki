@@ -1,13 +1,4 @@
 #labels Phase-Deploy,windows,setup,install
-*PLEASE NOTE:*
-
-This are the install instructions from measureit version 112 that will be released in July 2012. Please be patient and do not install version 111.
-
-Meanwhile you can install the software you will need to run measureit.
-
-Thank you.
-
-----
 
 
 You had to install some software to get this thing running. The URLs to the pages are from the packages I use. These sites must not be the "original pages". They come up on my search in the internet. There are certainly more sites that share these packages...
