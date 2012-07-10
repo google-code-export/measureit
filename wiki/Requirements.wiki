@@ -3,7 +3,7 @@
 To use measureit you need the following hardware:
 
   * a computer
-this can be an old home computer that is not longer used. The hardware can be very old. Very old means that 64 MB Ram is more than enough... 
+this can be an old home computer that is not longer used. The hardware can be very old. Very old means that 64 MB Ram is more than enough... or a new small laptop that is not consumed much energy. 
   * the smart meter cc128 hardware from [http://www.currentcost.com/ currentcost]
 
 The project was designed with the  [http://www.currentcost.com/product-cc128.html "Envi"] and works also with the [http://www.currentcost.com/product-envir.html "EnviR"]
