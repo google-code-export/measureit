@@ -21,6 +21,8 @@ Then your USB cable should be supported from your system
 
 On windows systems please read the information from the currentcost website
 
+And the lastet issue..... Make sure it is plugged in!!!... BOAH.....
+
 
 *Does my system receive data from my currentcost device?*
 
