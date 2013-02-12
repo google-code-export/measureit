@@ -1,7 +1,58 @@
 #labels update,instructions
 Here you find update instructions if you are using a previous version from measureit. If you are new to measureit you can ignore this page. All you need you will find in the download.
 
-*Version 111 -> Version 112*
+==Version 112 -> Version 113==
+
+In version 113 nearly every core code file has changed and the directory structure is changed too.
+Because of this we had to replace the complete code. 
+
+Don`t Panic :)
+
+Get new version
+{{{
+cd /usr/local/src
+wget http://measureit.googlecode.com/files/measureit-113.tgz
+tar -zxvf measureit-113.tgz
+cd measureit-113
+}}}
+
+THEN STOP RUNNING PYTHON GRABBER!
+This is important or the next step will fail or better... will run endless
+
+Execute the update script for the mysql database from the install folder from version 113:
+
+{{{
+sudo cat install/update_112_to_113.sql | mysql -uroot -p
+}}}
+
+Or if you are using phpMyAdmin choose SQL and upload the update_112_to_113.sql file
+
+Then save the old files. Only for the case of ...  :D
+
+{{{
+cd /var/www/
+mkdir backup-measureit-112
+mv * backup-measureit-112
+}}}
+
+You will receive a error message like this
+
+mv: cannot move `backup-measureit-112' to a subdirectory of itself, `backup-measureit-112/backup-measureit-112'
+
+This is ok, Just ignore it.
+
+### Here comes the startup from the grabber which I had to finish first ;) ###
+
+Then we start to install the new version. First we had to create a new directory for the system files. This are files that are private and should not available in the internet.
+
+{{{
+mkdir /usr/local/measureit/
+cp -R * /usr/local/measureit
+}}}
+
+to be continued...
+
+==Version 111 -> Version 112==
 
 Between the last version there are so many differences that it is the easiest way to update is to replace the complete files with the new version and edit the database files again.
 
@@ -31,7 +82,7 @@ Edit the database connecting files to fit to your settings:
  * python/data-input.py
 
 
-*Version 110 -> Version 111*
+==Version 110 -> Version 111==
 
 To update replace the following files
   * index.html
@@ -58,7 +109,7 @@ ALTER TABLE `measure_settings` ADD `measure_timezone_diff` SMALLINT( 4 ) NOT NUL
 }}} 
 
 
-*Version 109 -> Version 110*
+==Version 109 -> Version 110==
 
 To update replace the following files
   * index.html
@@ -68,14 +119,14 @@ To update replace the following files
   * js/jquery-ui-1.8.1/js/jquery-ui-1.8.16.custom.min.js
   * css/measure_it.css 
 
-*Version 108 -> Version 109*
+==Version 108 -> Version 109==
 
 Between version 107 and 108 there is no difference. New is a data grabbing script written in python because of php uses 100% cpu on windows systems. If you want to use measureit on a windows system just following the installation instructions in the wiki.
 
 Update: It seems that the file jquery-ui-1.8.1.custom.min.js was broken from packaging. If you want to use measureit-108 replace it with this version:
 http://code.google.com/p/measureit/source/browse/trunk/js/jquery-ui-1.8.1/js/jquery-ui-1.8.1.custom.min.js
 
-*Version 107-> Version 108*
+==Version 107-> Version 108==
 
 
 To Update from version 106 you had to replace the following files:
@@ -98,14 +149,14 @@ echo "ALTER TABLE measure_it.measure_watt ADD INDEX time_sensor ( time , sensor 
 
 If you want to import your google powermeter data add the directory "scripts" in the same directory where are the other directories ( php/js/install/css )
 
-*Version 106-> Version 107*
+==Version 106-> Version 107==
 
 To update from version 105 you just had to replace the files in your webserver directory.
 
 NOTE: If you are running a ubuntu 10.4 DO NOT change the init script. The init script from 11.4 DOES NOT work with earlier versions.
 
 
-*Version 105-> Version 106*
+==Version 105-> Version 106==
 
 To update from version 104 you just had to replace this files
 
@@ -160,7 +211,7 @@ Thats all. Now start the data-input.php process new:
 sudo /etc/init.d/measureit start
 }}}
 
-*Version 103-> Version 104*
+==Version 103-> Version 104==
 
 
 To update from Version 102
