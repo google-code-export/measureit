@@ -8,12 +8,17 @@ Because of this we had to replace the complete code.
 
 Don`t Panic :)
 
+If you are not already root
+{{{
+sudo bash
+}}}
+
 Get new version
 {{{
 cd /usr/local/src
 wget http://measureit.googlecode.com/files/measureit-113.tgz
 tar -zxvf measureit-113.tgz
-cd measureit-113
+cd measureit-113/measureit_system_files/
 }}}
 
 THEN STOP RUNNING PYTHON GRABBER!
@@ -28,6 +33,7 @@ sudo cat install/update_112_to_113.sql | mysql -uroot -p
 Or if you are using phpMyAdmin choose SQL and upload the update_112_to_113.sql file
 
 Then save the old files. Only for the case of ...  :D
+In this example your installation from measureit is in the directory /var/www
 
 {{{
 cd /var/www/
@@ -43,14 +49,20 @@ This is ok, Just ignore it.
 
 ### Here comes the startup from the grabber which I had to finish first ;) ###
 
-Then we start to install the new version. First we had to create a new directory for the system files. This are files that are private and should not available in the internet.
+Then we start to install the new version. First we had to create a new directory for the system files. This are files that are private and should not available in the internet. In this example the web server needs the user permission www-data. If your web server needs an other user change www-data to your settings.
 
 {{{
 mkdir /usr/local/measureit/
+cd /usr/local/measureit-113/measureit_system_files/
 cp -R * /usr/local/measureit
+chown -R www-data:www-data /usr/local/measureit/
 }}}
 
-to be continued...
+{{{
+cd /usr/local/src/measureit-113/measureit_public_html/
+cp -R * /var/www
+chown -R www-data:www-data /var/www/
+}}}
 
 ==Version 111 -> Version 112==
 
