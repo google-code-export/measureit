@@ -135,6 +135,35 @@ mysql = MySQLdb.connect(host="localhost",port=3306,user="measureit",passwd="XXXX
 Since version 112 you will have clamp support. 
 *Thanks to Ivo from Switzerland*. He is the gui who sponsored the clamps for developing.
 
+*How can I stop the python grabber?*
+
+On windows machines it should be enough to close the cmd window or shut down the service if measureit runs as a service. On unix / linux machines you must kill the process. 
+
+Find the ProcessID
+{{{
+ps auxf | grep data-input
+}}}
+
+You will get something like this
+
+root      3959  2.5  2.0  48988  9176 ?        Sl   Feb11  91:56 /usr/bin/python /usr/local/measureit/python/data-input.py
+
+In this case The PID is 3959
+
+{{{
+kill -9 3959
+}}}
+
+If you are running measureit under supervise shut down the process with
+{{{
+svc -d /service/measureit
+}}}
+
+To start it again
+{{{
+svc -u /service/measureit
+}}}
+
 *Does measureit supports IAMS (Individial Appliance Monitor)?*
 
 Maybe.. I can not say anything to iams. The european iams are available since some weeks but I do not have one. If you are interested in this feature feel free to sponsor me some iams and I will find it out...  :)
