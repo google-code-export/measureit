@@ -21,7 +21,8 @@ tar -zxvf measureit-113.tgz
 cd measureit-113/measureit_system_files/
 }}}
 
-THEN STOP RUNNING PYTHON GRABBER!
+THEN STOP RUNNING PYTHON GRABBER! [https://code.google.com/p/measureit/wiki/FAQ see FAQ to learn how]
+
 This is important or the next step will fail or better... will run endless
 
 Execute the update script for the mysql database from the install folder from version 113:
