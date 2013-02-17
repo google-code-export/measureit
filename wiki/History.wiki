@@ -1,4 +1,19 @@
 #labels History
+*Version 113*
+  
+  * Add Italian and French language.
+    * https://code.google.com/p/measureit/issues/detail?id=24
+  * Fix January bug on costs page.
+    * https://code.google.com/p/measureit/issues/detail?id=22
+  * Fix bug in measureit_functions.php.
+    * https://code.google.com/p/measureit/issues/detail?id=18
+  * Fix broken mysql database connections.
+    * https://code.google.com/p/measureit/issues/detail?id=16
+ * Add debug and logging functions to python data grabber
+ * Fix security issue that enables to see database username/passwd with browser
+ * Add update check to notice if a new version is available
+ * Raspberry Pi ISO image with pre installed measureit in version 113
+
 *Version 112*
  
   * Display usage data from all clamps. 
