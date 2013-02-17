@@ -13,27 +13,12 @@ If you are not already root
 sudo bash
 }}}
 
-Get new version
-{{{
-cd /usr/local/src
-wget http://measureit.googlecode.com/files/measureit-113.tgz
-tar -zxvf measureit-113.tgz
-cd measureit-113/measureit_system_files/
-}}}
-
-THEN STOP RUNNING PYTHON GRABBER! [https://code.google.com/p/measureit/wiki/FAQ see FAQ to learn how]
+STOP RUNNING PYTHON GRABBER! [https://code.google.com/p/measureit/wiki/FAQ see FAQ to learn how]
 
 This is important or the next step will fail or better... will run endless
 
-Execute the update script for the mysql database from the install folder from version 113:
+Save the old files. Only for the case of ...  :D
 
-{{{
-sudo cat install/update_112_to_113.sql | mysql -uroot -p
-}}}
-
-Or if you are using phpMyAdmin choose SQL and upload the update_112_to_113.sql file
-
-Then save the old files. Only for the case of ...  :D
 In this example your installation from measureit is in the directory /var/www
 
 {{{
@@ -48,22 +33,21 @@ mv: cannot move `backup-measureit-112' to a subdirectory of itself, `backup-meas
 
 This is ok, Just ignore it.
 
-### Here comes the startup from the grabber which I had to finish first ;) ###
+Now execute the code from the [https://code.google.com/p/measureit/wiki/Linux linux setup page] from the install supervise/daemontools point.
 
-Then we start to install the new version. First we had to create a new directory for the system files. This are files that are private and should not available in the internet. In this example the web server needs the user permission www-data. If your web server needs an other user change www-data to your settings.
+The only different between the update and a fresh install is the database.
 
-{{{
-mkdir /usr/local/measureit/
-cd /usr/local/measureit-113/measureit_system_files/
-cp -R * /usr/local/measureit
-chown -R www-data:www-data /usr/local/measureit/
-}}}
+DO NOT execute the database install. Do the following points instead.
+
+Execute the update script for the mysql database from the install folder from version 113:
 
 {{{
-cd /usr/local/src/measureit-113/measureit_public_html/
-cp -R * /var/www
-chown -R www-data:www-data /var/www/
+cat install/update_112_to_113.sql | mysql -uroot -p
 }}}
+
+Or if you are using phpMyAdmin choose SQL and upload the update_112_to_113.sql file
+
+Then go ahead with the install instructions
 
 ==Version 111 -> Version 112==
 
