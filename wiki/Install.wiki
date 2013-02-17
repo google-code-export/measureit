@@ -4,7 +4,7 @@
 The setup does not longer than about 30 minutes and is not difficult even if you are not a computer expert. The setup describes a new installation. For update instructions see the [https://code.google.com/p/measureit/wiki/UpdateInstructions update page]
  *  [http://code.google.com/p/measureit/wiki/Linux Linux]
  *  [http://code.google.com/p/measureit/wiki/Windows Windows]
- * Raspberry Pi ( coming if I receive my pi )
+ * [https://code.google.com/p/measureit/wiki/RaspberryPi Raspberry Pi]
  * ....
 
 Everyone is  welcome to describe your experience with your operating system or start developing a working version for other unix os or wathever system you use
