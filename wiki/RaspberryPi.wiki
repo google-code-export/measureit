@@ -11,9 +11,7 @@ Just download and copy it on the SD-Card. All services runs with system start.
 
 The measureit iso requires an 4 GB SD-Card but more space is always good :) 
 
-It is based on the Raspbian “wheezy”
-
-[http://www.raspberrypi.org/downloads]
+It is based on the [http://www.raspberrypi.org/downloads Raspbian “wheezy”]
 
 Software that was additionally installed on the original image:
 
