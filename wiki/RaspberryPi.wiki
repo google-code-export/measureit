@@ -1,10 +1,9 @@
 #labels Featured,Phase-Implementation
-
 Measureit runs on a Raspberry Pi without problems.
 
 I recommend the usage from a pre configured iso image where all software is installed. 
 
-The installation from the software is not the same that is described in the [https://code.google.com/p/measureit/wiki/Linux Linux].
+The installation from the software is not the same that is described in the [https://code.google.com/p/measureit/wiki/Linux Linux] part.
 
 The setup is lightweight, very fast and did not need much system resources so you can do additional things with your pi.
 
