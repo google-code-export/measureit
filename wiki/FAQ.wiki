@@ -118,17 +118,13 @@ update user set Password = password('XXXXXXXXXXXXXX') where User = 'measureit';
 flush privileges;
 }}}
 
-Then edit php/class.db.php and change the password
+Then edit /usr/local/measureit/measureit.cfg.php and change the password
 {{{
-var $pass                 = "measureitpasswd";
-var $pass                 = "XXXXXXXXXXXXXX";
+$database_passwd                 = "measureitpasswd";
+$database_passwd                = "XXXXXXXXXXXXXX";
 }}}
 
-
-You also had to change the password in the grabber script python/data-input.py
-{{{
-mysql = MySQLdb.connect(host="localhost",port=3306,user="measureit",passwd="XXXXXXXXXXXXXX",db="measure_it" )
-}}}
+You had to restart the grabber
 
 *Does measureit supports multiple clambs per sensor?*
 
