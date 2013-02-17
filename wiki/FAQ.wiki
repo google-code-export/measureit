@@ -168,7 +168,7 @@ svc -u /service/measureit
 
 *Does measureit supports IAMS (Individial Appliance Monitor)?*
 
-Maybe.. I can not say anything to iams. The european iams are available since some weeks but I do not have one. If you are interested in this feature feel free to sponsor me some iams and I will find it out...  :)
+Yes. IAMs are the same like a sensor. Pair your IAM with your Envi and add a sensor in the admin menu from measureit. Then restart the grabber.
 
 [http://www.amazon.co.uk/registry/wishlist/9VF9EXIQPT71 here you find my wish list on amazon.co.uk]
 
