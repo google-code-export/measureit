@@ -25,12 +25,18 @@ On windows systems please read the information from the currentcost website
 
 *Does my system receive data from my currentcost device?*
 
-run the following command in your konsole:
+Measureit writes infos into a logfile. There you can see error messages or debug informations.
+
 {{{
-sudo cat /dev/ttyUSB0
+tail -f /tmp/measureit.log
 }}}
 
-You should now see the xml data stream
+To get detailed informations to debug you can start the grabber manually. 
+{{{
+/usr/bin/python /usr/local/measureit/python/data-input.py test
+}}}
+
+You should now see the xml data stream and in the log are detailed informations.
 Press ctrl+c to get back control of the konsole
 
 On windows systems you can use the "C2 Terminal" software from currentcost.
