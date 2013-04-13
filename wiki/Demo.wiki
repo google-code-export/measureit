@@ -1,0 +1,12 @@
+#labels demo,Featured
+===DEMO===
+
+
+Please note that these are my development installations. I could be possible that there are errors or just a white screen or they are not reachable.
+
+
+[http://measureit.no-ip.org:100/ Measureit with Currentcost EnviR running on a RaspberryPi Rev. A (256 MB Ram)]
+
+[http://measureit.no-ip.org:110/ Measureit with Currentcost Envi running on a RaspberryPi Rev. B (512 MB Ram)]
+
+If there is no demo version reachable you can take a look at the [https://code.google.com/p/measureit/wiki/Screenshots screenshots]
