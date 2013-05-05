@@ -36,6 +36,13 @@ To get detailed informations to debug you can start the grabber manually.
 /usr/bin/python /usr/local/measureit/python/data-input.py test
 }}}
 
+To create a log file from the XML Output from your Current Cost device you can do the following.
+
+This will write the original XML into the file /tmp/mylogfile.txt
+{{{
+/usr/bin/python /usr/local/measureit/python/data-input.py test > /tmp/mylogfile.txt
+}}}
+
 You should now see the xml data stream and in the log are detailed informations.
 Press ctrl+c to get back control of the konsole
 
