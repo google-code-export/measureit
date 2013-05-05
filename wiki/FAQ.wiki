@@ -32,6 +32,8 @@ tail -f /tmp/measureit.log
 }}}
 
 To get detailed informations to debug you can start the grabber manually. 
+
+This will write a lot of debugging information in the measure.log
 {{{
 /usr/bin/python /usr/local/measureit/python/data-input.py test
 }}}
