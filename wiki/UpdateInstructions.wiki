@@ -1,6 +1,29 @@
 #labels update,instructions
 Here you find update instructions if you are using a previous version from measureit. If you are new to measureit you can ignore this page. All you need you will find in the download.
 
+==Version 114 -> Version 115==
+
+Download the newest version, extract it and change into the new directory.
+
+Update database. You can do this with the following command or if you are  using phpMyAdmin choose SQL and upload the file measureit_system_files/install/update_114_to_115.sql
+
+{{{
+cat measureit_system_files/install/update_114_to_115.sql | mysql -uroot -p measure_it
+}}}
+
+Replace the following files:
+
+ * measureit_system_files/python/data-input.py
+ * measureit_public_html/css/measure_it.css
+ * measureit_public_html/js/measureit.js
+ * measureit_public_html/php/measureit_funktions.php
+ * measureit_public_html/lng/de_DE.txt
+ * measureit_public_html/lng/en_EN.txt
+ * measureit_public_html/lng/it_IT.txt
+ * measureit_public_html/lng/fr_FR.txt
+
+Restart the grabber
+
 ==Version 112 -> Version 114==
 
 Yes! 114 because of I forgot to insert a file in the package. 113 is the same like 114 :/
