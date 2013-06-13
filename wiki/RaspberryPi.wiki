@@ -25,9 +25,16 @@ samba
 
 daemontools
 
-Except daemontools all packages are from the offical sources.
+Except daemontools all packages are from the raspian sources.
 
 php5-fpm and nginx are controlled with supervise.
+
+
+The username and the password from the image is the default one from the raspian image.
+
+User: pi
+Pass: raspberry
+
 
 The directories from measureit you can reach per samba share.
 
@@ -37,7 +44,7 @@ The directories from measureit you can reach per samba share.
 
 The username is web and the password is raspberry
 
-You can reach the Raspberry Pi with 2 pre configured ip adresses and with the dafault ip from dhcp
+You can reach the Raspberry Pi with 2 pre configured ip adresses and with the ip you get from dhcp
 
 10.0.0.99 with the gateway 10.0.0.1
 
