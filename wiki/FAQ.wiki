@@ -179,11 +179,17 @@ svc -u /service/measureit
 
 Yes. IAMs are the same like a sensor. Pair your IAM with your Envi and add a sensor in the admin menu from measureit. Then restart the grabber.
 
-[http://www.amazon.co.uk/registry/wishlist/9VF9EXIQPT71 here you find my wish list on amazon.co.uk]
 
 *Measureit does not work with Internet Explorer version X*
 
 The Internet Explorer is a bug and not a browser. I do not waste any private lifetime to get things working with IE. Measureit works with Safari, Firefox, Chrome and Opera.
 
+*There is a tracking code inside. Do you observe me?*
+
+Yes. I know everything about you. The name from your cat is xxx...
+
+NO! Fun aside. The tracking counts the users from measureit. And I am proud that I can say that the tracking told me that currently there are about 300 user that use measureit and about 30 people use it daily. (2013.06.15). Nothing more! To know that people like and use my software is a good reason to go ahead with the work.
+
+If you do no like that I count your usage from measureit you can remove the analytics code from the measureit_public_html/index.html. Just delete the the the  script part that begins on line 24
 
  
