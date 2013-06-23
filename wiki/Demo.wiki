@@ -9,4 +9,6 @@ Please note that these are my development installations. I could be possible tha
 
 [http://measureit.no-ip.org:110/ Measureit with Currentcost Envi running on a RaspberryPi Rev. B (512 MB Ram)]
 
+[http://pvoutput.org/intraday.jsp?sid=18518 Sensor data on pvoutput.org sending from measureit
+
 If there is no demo version reachable you can take a look at the [https://code.google.com/p/measureit/wiki/Screenshots screenshots]
