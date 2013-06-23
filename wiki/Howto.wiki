@@ -31,7 +31,7 @@ Here you will find the options you can set in measureit. If you run into problem
     * If the timezone setting from a sensor or clamp is different from the default system setting you can change it here. Every sensor even every clamp can be in his own timezone :)
     * Here you can set the currency from your country. It is just a text that is displayed in measureit where prices will shown. The default setting from new sensors and clamps are Euro
     * If you wish to hold history data for a different period of time than the default setting from 365 days you can overwrite it for every sensor or clamp. You must restart the grabber script after changing this setting.
-  * Here you can set a PVOutput API key if it is different from the key in the system settings. This is useful if you own more than 1 PVOutput account.
+    * Here you can set a PVOutput API key if it is different from the key in the system settings. This is useful if you own more than 1 PVOutput account.
     * Does this sensor sent usage or production data. This information is currently used to reporting data to PVOutput. 
     * If you are using PVOutput you must here set the system id from your sensor. 
     * Prices can be overwritten for every sensor or clamp if the sensor is using different prices than the prices in the system settings.
