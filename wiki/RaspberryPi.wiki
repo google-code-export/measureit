@@ -62,6 +62,13 @@ If you know an other one where 615 MB files are no problem please let me know
 
 Feedback welcome :)
 
+Version 115
+
+2013-06-23-wheezy-raspbian-measureit-115-4gb.img.zip (613.3 MB)
+
+https://mega.co.nz/#!WJcGibRA!RWjoBw7W3iJIGBepwmBI4QyepQomeQ0PYnBsuqziZCk
+
+
 Version: 114
 
 2013-02-09-wheezy-raspbian-measureit-114-4gb-final.tgz (615.4 MB)
