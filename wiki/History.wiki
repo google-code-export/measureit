@@ -1,4 +1,14 @@
 #labels History
+*Version 115*
+  
+  * Fix last hour bug on start page.
+    * https://code.google.com/p/measureit/issues/detail?id=23
+  * Fix 9 sensor adding bug.
+    * https://code.google.com/p/measureit/issues/detail?id=25
+  * Fix data spikes from not existing clamps.
+    * https://code.google.com/p/measureit/issues/detail?id=26
+  * Add option to send data to pvoutput.
+
 *Version 113*
   
   * Add Italian and French language.
