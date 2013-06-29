@@ -3,7 +3,7 @@ Measureit runs on a Raspberry Pi without problems.
 
 I recommend the usage from a pre configured iso image where all software is installed. 
 
-The installation from the software is not the same that is described in the [https://code.google.com/p/measureit/wiki/Linux Linux] part.
+The installation from the software is NOT the same that is described in the [https://code.google.com/p/measureit/wiki/Linux Linux] part.
 
 The setup is lightweight, very fast and did not need much system resources so you can do additional things with your pi.
 
@@ -26,6 +26,10 @@ samba
 daemontools
 
 Except daemontools all packages are from the raspian sources.
+
+If you are interested how the setup is working you can take a look at [http://71421.de/wiki/doku.php my copy & paste wiki].
+
+*Be warned*. It is not well documented and you should at least know how to use a text editor on the console. In this example vim ;)
 
 php5-fpm and nginx are controlled with supervise.
 
