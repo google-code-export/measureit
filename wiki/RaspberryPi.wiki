@@ -28,7 +28,6 @@ daemontools
 Except daemontools all packages are from the raspian sources.
 
 If you are interested how the setup is working you can take a look at [http://71421.de/wiki/doku.php my copy & paste wiki].
-
 *Be warned*. It is not well documented and you should at least know how to use a text editor on the console. In this example vim ;)
 
 php5-fpm and nginx are controlled with supervise.
