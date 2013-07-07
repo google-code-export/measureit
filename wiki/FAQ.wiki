@@ -192,4 +192,10 @@ NO! Fun aside. The tracking counts the users from measureit. And I am proud that
 
 If you do no like that I count your usage from measureit you can remove the analytics code from the measureit_public_html/index.html. Just delete the the the  script part that begins on line 24
 
- 
+*HTTPError: HTTP Error 400: Bad Request*
+
+If you can see this error in the measure it.log there is something wrong with the settings in PVOutput in your system. Mostly you send more watts that are possible with your system settings in PVOutput.
+
+Then copy the URL under this error and paste it in your browser. There you can get a detailed error.
+
+[http://pvoutput.org/help.html Detailed infos about the error you can found here in the part "Error Messages"]
