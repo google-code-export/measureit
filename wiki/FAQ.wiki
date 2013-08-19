@@ -106,9 +106,12 @@ If you get a white page with no information after installing or update there is 
 
 Try the following steps:
 
-  * There are 2 files that include your database settings. The one that is responsible for white pages is php/class.db.php. Make shure the database settings (user, pass, host...) are correct. You can call the follwing URL to get a clear error message: <code>http://YOUR-CURRENT_URL/php/measureit_functions.php?do=navigation_main</code>
+  * You can call the follwing URL to get a clear error message: <code>http://YOUR-CURRENT_URL/php/measureit_functions.php?do=navigation_main</code>
 
-  * I do a programming error so your second step should be [https://code.google.com/p/measureit/issues/detail?id=17 to take a look here]
+  * I do a programming error so your second step should be [https://code.google.com/p/measureit/issues/list to take a look here]
+
+  * Detailed debug informations you can get if you start the grabber manually with the debug parameter "debug v". Informations how to do this you will find above in "Does my system receive data from my currentcost device?". You need the latest grabber version to do this:
+https://measureit.googlecode.com/svn/trunk/measureit_system_files/python/data-input.py
 
   * If there is no solution please create a new [http://code.google.com/p/measureit/issues/list issue]
 
