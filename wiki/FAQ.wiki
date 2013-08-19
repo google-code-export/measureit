@@ -33,7 +33,7 @@ tail -f /tmp/measureit.log
 
 To get detailed informations to debug you can start the grabber manually. 
 
-This will write a lot of debugging information in the measure.log
+This will write some debugging information in the measure.log
 {{{
 /usr/bin/python /usr/local/measureit/python/data-input.py test
 }}}
@@ -49,6 +49,16 @@ You should now see the xml data stream and in the log are detailed informations.
 Press ctrl+c to get back control of the konsole
 
 On windows systems you can use the "C2 Terminal" software from currentcost.
+
+To get more debugging informations in the log file you can start the grabber with "debug".
+
+{{{
+/usr/bin/python /usr/local/measureit/python/data-input.py debug
+}}}
+
+If you want to see very detailed informations you can start it with "debug v".
+
+This will create very much informations in the log.
 
 
 *I receive no data although the system supports the USB cable*
