@@ -5,12 +5,11 @@ You can connect your measureit to twitter. For this you will need a twitter acco
 DO NOT use you current twitter account. Create a new one if you do not want to loose all of your follower because of testing with alerts...
 
 After creating and confirm you email log in dev.twitter.com with the new account
-
 https://dev.twitter.com
 
 On the right upper corner you find a drop down. Click "My applications "
 
-http://measureit.googlecode.com/svn/screenshots/twitter1
+http://measureit.googlecode.com/svn/screenshots/twitter1.png
 
 You will found a empty list with the option to create a application.
 
@@ -20,14 +19,13 @@ You are know in the settings from your new app if all data are correct while cre
 
 Change to the "Settings" tab and change "Application Type" to "Read, Write and Access direct messages". click "Update this twitter applications settings"
 
-http://measureit.googlecode.com/svn/screenshots/twitter2
+http://measureit.googlecode.com/svn/screenshots/twitter2.png
 
 Change back to the "Details" tab.
 Under the point "OAuth settings" you will find all necessary values
 
-http://measureit.googlecode.com/svn/screenshots/twitter3
+http://measureit.googlecode.com/svn/screenshots/twitter3.png
 
 Put these values in the measure it settings under system -> twitter
 
-http://measureit.googlecode.com/svn/screenshots/twitter4
-
+http://measureit.googlecode.com/svn/screenshots/twitter4.png
