@@ -23,10 +23,12 @@ Change to the "Settings" tab and change "Application Type" to "Read, Write and A
 http://measureit.googlecode.com/svn/screenshots/twitter2.png
 
 Change back to the "Details" tab.
-Under the point "OAuth settings" you will find all necessary values
+Under the point "OAuth settings"  and "Your access token" you will find all necessary values
 
 http://measureit.googlecode.com/svn/screenshots/twitter3.png
 
 Put these values in the measure it settings under system -> twitter
 
 http://measureit.googlecode.com/svn/screenshots/twitter4.png
+
+The names are the same that in measureit
