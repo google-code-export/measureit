@@ -16,7 +16,7 @@ You will found a empty list with the option to create a application.
 
 Choose name, description, url (can be http://127.0.0.1) and save the new application. Leave callback url empty.
 
-You are know in the settings from your new app if all data are correct while creating it.
+You are now in the settings from your new app if all data are correct while creating it.
 
 Change to the "Settings" tab and change "Application Type" to "Read, Write and Access direct messages". click "Update this twitter applications settings"
 
