@@ -1,6 +1,57 @@
 #labels update,instructions
 Here you find update instructions if you are using a previous version from measureit. If you are new to measureit you can ignore this page. All you need you will find in the download.
 
+==Version 115 -> Version 116==
+
+Download the newest version, extract it and change into the new directory.
+
+Update database. You can do this with the following command or if you are  using phpMyAdmin choose SQL and upload the file measureit_system_files/install/update_115_to_116.sql
+
+{{{
+cat measureit_system_files/install/update_115_to_116.sql | mysql -uroot -p measure_it
+}}}
+
+These queries will be done in the update_115_to116.sql
+{{{
+INSERT INTO measure_data_now (sensor_id, watt, tmpr) VALUES (10, 0, 0), (20, 0, 0), (30, 0, 0);
+ALTER TABLE measure_settings CHANGE measure_timezone_diff measure_timezone_diff FLOAT( 4 ) NOT NULL DEFAULT '0';
+}}}
+
+Install python-setupools and twython that is used for tweeting
+
+{{{
+apt-get install python-setuptools
+}}}
+
+{{{
+easy_install twython
+}}}
+
+This will install these libs
+
+twython
+http://pypi.python.org/simple/twython/
+
+requests
+http://pypi.python.org/simple/requests/
+
+requests-oauthlib
+http://pypi.python.org/simple/requests_oauthlib/
+
+Replace the following files:
+
+ * measureit_system_files/python/data-input.py
+ * measureit_public_html/css/measure_it.css
+ * measureit_public_html/js/measureit.js
+ * measureit_public_html/php/measureit_funktions.php
+ * measureit_public_html/lng/de_DE.txt
+ * measureit_public_html/lng/en_EN.txt
+ * measureit_public_html/lng/it_IT.txt
+ * measureit_public_html/lng/fr_FR.txt
+ * measureit_public_html/lng/nl_NL.txt
+
+
+
 ==Version 114 -> Version 115==
 
 Download the newest version, extract it and change into the new directory.
