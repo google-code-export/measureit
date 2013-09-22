@@ -41,9 +41,12 @@ sudo bash
 
 
 install software. This can take several minutes on a Rasperry Pi  :)
+
+NOTE: Some user report problems with the xbmc Image on the Raspberry PI because of there is running already a apache web server and php is installed already. So do not install the apache2 server again.
+
 {{{
 apt-get update
-apt-get install php5-cgi php5-cli apache2 mysql-server libapache2-mod-php5 php5-mysql
+apt-get install php5-cgi php5-cli apache2 mysql-server libapache2-mod-php5 php5-mysql python-setuptools
 }}}
 
 There are several ways to run the grabber. I prefer the usage from supervise/daemontools ([http://cr.yp.to/daemontools.html supervise home]). It is a control daemon that will start the grabber on boot, control the grabber and restart the grabber if it is not running.
@@ -75,6 +78,10 @@ perl -pi -le 's/extern int errno;/#include <errno.h>/' *.[hc]
 cd ..
 package/install
 mkdir /etc/servers
+}}}
+
+{{{
+easy_install twython
 }}}
 
 Now all required software is installed. 
