@@ -1,4 +1,25 @@
 #labels History
+*Version 116*
+  
+  * Fix bug that will avoid price settings.
+    * https://code.google.com/p/measureit/issues/detail?id=19
+  * Fix PVOutput api key bug in sensor settings.
+    * https://code.google.com/p/measureit/issues/detail?id=32
+  * Fix sensor type error in data-input.py.
+    * https://code.google.com/p/measureit/issues/detail?id=33
+  * Add missing default values to db.
+    * https://code.google.com/p/measureit/issues/detail?id=34
+  * Fix bug at sensor delte.
+    * https://code.google.com/p/measureit/issues/detail?id=35
+  * Fix curves in PVOutput.
+    * https://code.google.com/p/measureit/issues/detail?id=36
+  * Add support for Fahrenheit.
+    * https://code.google.com/p/measureit/issues/detail?id=40
+    * https://code.google.com/p/measureit/issues/detail?id=43
+  * Hide system and sensor settings in demo mode
+  * Add notifications per twitter or email
+  * Move email settings in admin menu
+
 *Version 115*
   
   * Fix last hour bug on start page.
