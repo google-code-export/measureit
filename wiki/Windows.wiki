@@ -1,5 +1,5 @@
 #labels Phase-Deploy,windows,setup,install
-== Note: This instructions are for version 112. Later version are not working on windows ==
+== Note: This instructions are for version 112. This is the latest version I have tested. There are some users out there running the newest version on windows.  Feel free to send me feedback if you try to run newer versions on windows.==
 
 You had to install some software to get this thing running. The URLs to the pages are from the packages I use. These sites must not be the "original pages". They come up on my search in the internet. There are certainly more sites that share these packages...
 
