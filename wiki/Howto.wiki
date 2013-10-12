@@ -19,7 +19,7 @@ Here you will find the options you can set in measureit. If you run into problem
     * If the timezone setting is used all sensors will be in the same timezone. 
     * If you are using PVOutput you must set here your PVOutput API key. If you are using more than 1 account you can set a key on each sensor.
     * Choose your language. ( You had to reload the windows ) 
-    * Set your google email account here to receive info if there are problems with your installation or to receive notifications about sensor usages
+    * Set your google email account here to receive info if there are problems with your installation or to receive notifications about sensor usages. If you are using the 2-step verification you had to [https://support.google.com/accounts/answer/1070457?hl=en&ref_topic=1099588 create an application specific password]
     * Set your twitter app details here to send notifications about usage to twitter. [https://code.google.com/p/measureit/wiki/Twitter Details]
 
 
