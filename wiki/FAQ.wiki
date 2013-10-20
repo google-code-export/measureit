@@ -216,3 +216,25 @@ Then copy the URL under this error and paste it in your browser. There you can g
 *After adding a sensor / clamp there is "null" displayed as clamp name
 
 The sensor / clamp name is displaying the latest position from the sensor. If you do not add a position in the sensor / clamp settings it will display "null"
+
+*How to install phpMyAdmin to make the SQL stuff easier?*
+
+Do not try to get it running with apt-get. The measureit image is designed to be fast with no overhead installed. If you do it with apt-get a lot of useless software is installed too and sometimes you can get problem with missing dependents.
+
+You can just download it and move the extracted folder into /web/measureit and then you can use it.
+
+http://measureit/phpMyAdmin
+
+WARNING! If your measureit installation is reachable to the internet RENAME the folder to something like:
+
+/web/measureit/you_can_not_guess_how_my_name_is
+
+This is because of there are many automated bots outside there that are scanning for folder names like "phpMyAdmin" or "pma" to broke into your system with known security issues 
+
+*Can I use webmin on your image*
+
+Yes you can but you should not!
+
+This means not that the measureit image is not compatible with it. This is because of it will doing things in the background you possible not understand and you was not the first user of measureit that click on a update button and then the image is crashed and not longer working.
+
+It is a cool software that helps to learn how things are working that nothing you want to use on a production system :)
