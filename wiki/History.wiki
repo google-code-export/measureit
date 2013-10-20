@@ -3,6 +3,7 @@
   
   * Fix bug that will avoid price settings.
     * https://code.google.com/p/measureit/issues/detail?id=19
+    * https://code.google.com/p/measureit/issues/detail?id=27
   * Fix PVOutput api key bug in sensor settings.
     * https://code.google.com/p/measureit/issues/detail?id=32
   * Fix sensor type error in data-input.py.
