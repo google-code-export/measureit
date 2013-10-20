@@ -13,6 +13,8 @@ You can download the backups from the admin and extract it with a unzip software
 
 In the backup there are all needed instructions that will delete the database tables and recreate them. They will be filled with all data and settings that are existing in your backup. Also all the sensor and system settings.....
 
+If you are using phpMyAdmin or related db scripts you can ignore the console part. Then you should just install the new system and upload the unzipped sql to phpMyAdmin. Note: If you backup is too large it could be possible that your browser / system get a timeout. To make shure that it is working upload it to /web/measureit and load the SQL in phpMyAdmin from this path. In this case go ahead and read how to get the backup to /web/measureit.
+
 So if the new system is running put the backup on the server
 
 If you are using the PI Image just copy / paste it in the network share "web"
