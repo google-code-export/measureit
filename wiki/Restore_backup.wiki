@@ -9,7 +9,7 @@ You can download the backups from the admin and extract it with a unzip software
 
 ===Now lets thinks about why you want to use your backup===
 
-If you kill your installation with experiments and everything is hopelessly out of using the backup so I think you will install a new system from the install instructions or the PI image...
+*If you kill your installation with experiments and everything is hopelessly out of using the backup so I think you will install a new system from the install instructions or the PI image...*
 
 In the backup there are all needed instructions that will delete the database tables and recreate them. They will be filled with all data and settings that are existing in your backup. Also all the sensor and system settings.....
 
@@ -87,7 +87,7 @@ cat measureit_backup_DATE-TIMESTAMP | mysql -uroot -p measure_it
 After the restore is finished you should have a system that contains all data from the backup. Restart the grabber and have fun.....
 
 
-Your system is running fine but you want to switch to the next version from measureit and you want to have a clean installation or Thomas is doing something terrible wrong with the update instructions and all data are gone :D
+*Your system is running fine but you want to switch to the next version from measureit and you want to have a clean installation or Thomas is doing something terrible wrong with the update instructions and all data are gone :D*
 
 In this case follow the instructions from above and install the version you are running currently. That means if you are running f.e version 114 then install a clean installation from 114. After you are done following the [https://code.google.com/p/measureit/wiki/UpdateInstructions update instructions] from version 115
 
