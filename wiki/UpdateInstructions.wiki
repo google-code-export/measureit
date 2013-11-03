@@ -13,9 +13,9 @@ cat measureit_system_files/install/update_115_to_116.sql | mysql -uroot -p measu
 
 These queries will be done in the update_115_to116.sql
 {{{
+UPDATE measure_system SET measure_system_setting_value = 116 WHERE measure_system_setting_name = "current_version";
 INSERT INTO measure_data_now (sensor_id, watt, tmpr) VALUES (10, 0, 0), (20, 0, 0), (30, 0, 0);
 ALTER TABLE measure_settings CHANGE measure_timezone_diff measure_timezone_diff FLOAT( 4 ) NOT NULL DEFAULT '0';
-
 CREATE TABLE IF NOT EXISTS measure_notifications (
   measure_notifications_id smallint(10) NOT NULL AUTO_INCREMENT,
   measure_notifications_sensor smallint(3) NOT NULL,
