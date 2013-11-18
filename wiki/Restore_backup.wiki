@@ -75,6 +75,12 @@ This is because of the missing rights from the user pi on the /web/measureit dir
 
 *Play the backup into the database*
 
+DO NOT FORGET to stop the grabber ;)
+
+{{{
+svc -d /service/measureit
+}}}
+
 Open a console to the server and change to the directory where your backup is. Either /web/measureit or /tmp
 
 {{{
