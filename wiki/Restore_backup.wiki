@@ -28,13 +28,13 @@ Open the console and change to the directory where your backup is. You had to fi
 Linux
 {{{
 cd /home/USERNAME/downloads
-scp measureit_backup_DATE-TIMESTAMP.gz pi@YOUR_MEASUREIT_IP:/web/measureit
+scp measureit_backup_DATE-TIMESTAMP.gz pi@YOUR_MEASUREIT_IP:/tmp
 }}}
 
 Mac
 {{{
 cd Downloads/
-scp measureit_backup_DATE-TIMESTAMP.gz pi@YOUR_MEASUREIT_IP:/web/measureit
+scp measureit_backup_DATE-TIMESTAMP.gz pi@YOUR_MEASUREIT_IP:/tmp
 }}}
 
 Replace the name from your backup with the date and the timestamp. It should be something like "measureit_backup_20131021-005230.gz"
@@ -54,26 +54,33 @@ If you are not able to find out the current IP just start a search in the search
 One finished your command should look something like:
 {{{
 cd Downloads/
-scp measureit_backup_20131021-005230.gz pi@10.0.0.99:/web/measureit
+scp measureit_backup_20131021-005230.gz pi@10.0.0.99:/tmp
 }}}
 
 There is the option to upload your backup to a free file hosting service. In this case get the download ULR and log into your server with a console. Yes. You had to find out the IP also... :D
 
 {{{
-cd /web/measureit
+cd /tmp
 wget http://THE_URL_FROM_YOUR_BACKUP
 }}}
 
-In every case you should have now a backup file on the server in the directory /web/measureit.
+In every case you should have now a backup file on the server.
+
+If you are using the network share directory web it should be in /web/measureit.
 
 To test it you can try a http://YOUR_MEASUREIT_IP/measureit_backup_DATE-TIMESTAMP.gz in your browser. A download should start with your backup file.
 
+If you copy it with scp or download it with wget it should be in /tmp
+This is because of the missing rights from the user pi on the /web/measureit directory.
+
 *Play the backup into the database*
 
-Open a console to the server and change to the /web/measureit directory
+Open a console to the server and change to the directory where your backup is. Either /web/measureit or /tmp
 
 {{{
 cd /web/measureit
+OR
+cd /tmp
 }}}
 
 If the backup is not extracted already the extract it
