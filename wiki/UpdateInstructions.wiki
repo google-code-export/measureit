@@ -14,7 +14,6 @@ cat measureit_system_files/install/update_115_to_116.sql | mysql -uroot -p measu
 These queries will be done in the update_115_to116.sql
 {{{
 UPDATE measure_system SET measure_system_setting_value = 116 WHERE measure_system_setting_name = "current_version";
-INSERT INTO measure_data_now (sensor_id, watt, tmpr) VALUES (10, 0, 0), (20, 0, 0), (30, 0, 0);
 ALTER TABLE measure_settings CHANGE measure_timezone_diff measure_timezone_diff FLOAT( 4 ) NOT NULL DEFAULT '0';
 CREATE TABLE IF NOT EXISTS measure_notifications (
   measure_notifications_id smallint(10) NOT NULL AUTO_INCREMENT,
@@ -29,6 +28,12 @@ CREATE TABLE IF NOT EXISTS measure_notifications (
   measure_notifications_criteria tinyint(1) NOT NULL,
   PRIMARY KEY (measure_notifications_id)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
+INSERT INTO measure_data_now (sensor_id, watt, tmpr) VALUES (10, 0, 0), (20, 0, 0), (30, 0, 0);
+}}}
+
+If you receive a error at the last insert query you can ignore it.
+{{{
+ERROR 1062 (23000) at line 2: Duplicate entry '10' for key 'PRIMARY'
 }}}
 
 Install python-setupools and twython that is used for tweeting
