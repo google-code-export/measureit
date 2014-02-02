@@ -16,6 +16,8 @@
     * https://code.google.com/p/measureit/issues/detail?id=35
   * Fix curves in PVOutput.
     * https://code.google.com/p/measureit/issues/detail?id=36
+  * Fix system detection
+    * https://code.google.com/p/measureit/issues/detail?id=51
   * Add support for Fahrenheit.
     * https://code.google.com/p/measureit/issues/detail?id=40
     * https://code.google.com/p/measureit/issues/detail?id=43
