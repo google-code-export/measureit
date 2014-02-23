@@ -1,4 +1,4 @@
-#labels Phase-Support
+#labels Phase-Support,backup
 = How to restore a backup =
 
 There are some reasons to use a backup from your existing measureit installation. We take a look of them later. First get a existing backup...
