@@ -1,4 +1,4 @@
-#labels API
+#labels API,Phase-Support
 =Api Documentation=
 
 To use the data from measureit in other applications there is a option to make requests that delivers data in JSON format. Some older options that are not ported to JSON already delivers a javascript object that is used in the graphs. They include a timestamp in JS milliseconds ( timestamp+000 ) and the data.
