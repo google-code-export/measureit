@@ -5,6 +5,11 @@ There are some reasons to use a backup from your existing measureit installation
 
 You can download the backups from the admin and extract it with a unzip software that is installed on your PC or you can extract it with the console on the measureit server itself.
 
+If you do not have a existing backup you can also use the console to create a backup. This will create a backup in /tmp. You had to replace the XXXXXX with the password from the mysql user root.
+{{{
+mysqldump --opt -hlocalhost -uroot -pXXXXXXX measure_it | gzip > /tmp/measureit.gz
+}}}
+
 ===Now lets thinks about why you want to use your backup===
 
 *If you kill your installation with experiments and everything is hopelessly out of using the backup so I think you will install a new system from the install instructions or the PI image...*
