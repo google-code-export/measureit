@@ -238,3 +238,8 @@ Yes you can but you should not!
 This means not that the measureit image is not compatible with it. This is because of it will doing things in the background you possible not understand and you was not the first user of measureit that click on a update button and then the image is crashed and not longer working.
 
 It is a cool software that helps to learn how things are working that nothing you want to use on a production system :)
+
+*Is there a API to use the usage data in other applications?*
+
+Yes. Take a look here:
+https://code.google.com/p/measureit/wiki/API_Documentation
