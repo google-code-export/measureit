@@ -8,6 +8,6 @@ This project use additional third party software. Thanks to those developer for 
   * [http://www.ubuntu.com/ Ubuntu]
   * [http://www.php.net/ php]
   * [http://www.mysql.com/ mysql]
-  * [http://www.apache.org/ Apache]
+  * [http://nginx.org/ nginx]
   * [http://www.python.org/ Python]
   * every one I forget...
