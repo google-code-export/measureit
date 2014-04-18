@@ -21,6 +21,8 @@
   * Add support for Fahrenheit.
     * https://code.google.com/p/measureit/issues/detail?id=40
     * https://code.google.com/p/measureit/issues/detail?id=43
+  * Correct hourly / weekly consumption calculation
+    * https://groups.google.com/forum/#!topic/measureit/YPNLH8NJiOI
   * Hide system and sensor settings in demo mode
   * Add notifications per twitter or email
   * Move email settings in admin menu
