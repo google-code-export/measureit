@@ -61,9 +61,15 @@ The download is to big to hosting it on google code.
 
 So I share it with a download service. Warning. It uses flash :(
 
-If you know an other one where 615 MB files are no problem please let me know
+If you know an other one where big files are no problem please let me know
 
 Feedback welcome :)
+
+Version 116
+
+2014-04-18-wheezy-raspbian-measureit-116-4gb.img.zip (1.10 GB)
+
+https://mega.co.nz/#!PVMjHYiC!sCG1c4tpUiINOUKGEg7bIfZWOVMxsGpxJO5jhVd40vM
 
 Version 115
 
