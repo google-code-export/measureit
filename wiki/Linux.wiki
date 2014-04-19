@@ -51,7 +51,7 @@ apt-get install php5-cgi php5-cli apache2 mysql-server libapache2-mod-php5 php5-
 
 There are several ways to run the grabber. I prefer the usage from supervise/daemontools ([http://cr.yp.to/daemontools.html supervise home]). It is a control daemon that will start the grabber on boot, control the grabber and restart the grabber if it is not running.
 
-In this [https://groups.google.com/forum/?fromgroups=#!topic/measureit/tzgVqq-RauY thread] there is a not tested user solution. [https://code.google.com/p/measureit/issues/detail?id=20 Here] is also a not tested user script
+In the download there are some user generated start / stop scripts. I did not test them. Maybe there is one that is matching your setup. You will find them in measureit_system_files/install
 
 You can also start it manual on system start. Since version 113 the grabber is very stable and does not crash.
 
