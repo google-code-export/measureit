@@ -20,3 +20,5 @@ https://mega.co.nz/#!LMUlzThY!v_q7waMPAqAvpxLKtSeASCirBr_a5CDUudnxDm0nxoU
 
 measureit-114.tar 1.5 MB
 https://mega.co.nz/#!bRFzDBAK!OY9SkcYf9tUQdLwC8YNA59gHaDM5m7cPtYJCuyj35Dk
+
+[[https://code.google.com/p/measureit/downloads/list Older Version can be found here]]
