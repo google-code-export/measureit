@@ -22,3 +22,5 @@ measureit-114.tar 1.5 MB
 https://mega.co.nz/#!bRFzDBAK!OY9SkcYf9tUQdLwC8YNA59gHaDM5m7cPtYJCuyj35Dk
 
 [https://code.google.com/p/measureit/downloads/list Older Version can be found here]
+
+[https://code.google.com/p/measureit/wiki/RaspberryPi The pre installed PI images you will find here]
