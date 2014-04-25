@@ -86,11 +86,11 @@ easy_install twython
 
 Now all required software is installed. 
 
-Next we download and setup Measureit. You will asked for the user password you entered during the setup from Ubuntu. Replace the XXX with the current version. The newest you will find in the downloads
+Next we download and setup Measureit. You will asked for the user password you entered during the setup from Ubuntu. Replace the XXX with the current version. [https://code.google.com/p/measureit/wiki/Download The newest you will find in the downloads]
 
 {{{
 cd /usr/local/src
-wget http://measureit.googlecode.com/files/measureit-XXX.tgz
+wget https://mega.co.nz/#!6QUgHJIA!cuMLTMEcWe_-EOGoTXhygDLqQFxNfH4Q8ZSjFp-t3X0
 tar -zxvf measureit-XXX.tgz
 cd measureit-XXX/measureit_system_files/
 }}}
