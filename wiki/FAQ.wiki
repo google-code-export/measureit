@@ -205,6 +205,34 @@ NO! Fun aside. The tracking counts the users from measureit. And I am proud that
 
 If you do no like that I count your usage from measureit you can remove the analytics code from the measureit_public_html/index.html. Just delete the the the  script part that begins on line 24
 
+*Measureit does not upload data to PVOutput*
+
+To find out why no data will be uploaded to PVOutput you can start the grabber manually with the debug parameter.
+
+You should see informations about the sensor and systems setting found by measureit in /tmp/measureit.log. This will look like this:
+
+{{{
+2014-05-24 09:05:31,318 INFO Try to get sensor settings from sensor_settings_get
+2014-05-24 09:05:31,344 INFO Sensor 0 Check if there are any PVOutput settings for this sensor
+2014-05-24 09:05:31,350 INFO Sensor 0 has a PVOutput ID
+2014-05-24 09:05:31,355 INFO XXXXX
+2014-05-24 09:05:31,361 INFO Sensor 0 Now checking if there is a PVOutput API key
+2014-05-24 09:05:31,366 INFO Sensor 0 has no PVOutput API. Next check if there is a global API key
+2014-05-24 09:05:31,375 INFO Found PVOutput API key in the system settings.
+2014-05-24 09:05:31,380 DEBUG XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2014-05-24 09:05:31,400 INFO Using PVOutput for this sensor
+}}} 
+
+Measureit uploads data every 5 minutes to PVOutput. If everything is fine you will see something like this:
+
+{{{
+2014-05-24 09:10:13,842 INFO Try to update PVOutput from sensor : 0 Output: OK 200: Added Status
+2014-05-24 09:10:13,850 DEBUG http://pvoutput.org/service/r2/addstatus.jsp?key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&sid=XXXXX&d=20140524&t=11%3A10&v2=92&v5=27.9
+}}}
+
+If not you will see the error message that returns from PVOutput. 
+
+
 *HTTPError: HTTP Error 400: Bad Request*
 
 If you can see this error in the measure it.log there is something wrong with the settings in PVOutput in your system. Mostly you send more watts that are possible with your system settings in PVOutput.
