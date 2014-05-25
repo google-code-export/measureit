@@ -29,7 +29,9 @@ On windows systems please read the information from the currentcost website
 
 
 
-*Does my system receive data from my currentcost device?*
+*Does my system receive data from my currentcost device?
+Something is not working. Why not?
+*
 
 Measureit writes infos into a logfile. There you can see error messages or debug informations.
 
@@ -37,7 +39,7 @@ Measureit writes infos into a logfile. There you can see error messages or debug
 tail -f /tmp/measureit.log
 }}}
 
-To get detailed informations to debug you can start the grabber manually. 
+To get detailed informations you can start the grabber manually. 
 
 To run the grabber manually you had to stop the currently running measureit process first. On the PI image you can do this with
 {{{
@@ -74,8 +76,29 @@ To get more debugging informations in the log file you can start the grabber wit
 
 If you want to see very detailed informations you can start it with "debug v".
 
-This will create very much informations in the log.
+This will create very very very much informations in the log.
 
+*How can I read the measureit.log?*
+
+You have several options to do this.
+
+ If you want to read the log in real time you can open a second console to your instalation and do a 
+
+{{{
+tail -f /tmp/measureit.log
+}}}
+
+To show the log you can do a
+
+{{{
+cat /tmp/measureit.log
+}}}
+
+Or if the log is too long you can read it in parts. Every time you press space you get the next part
+
+{{{
+cat /tmp/measureit.log | more
+}}}
 
 *I receive no data although the system supports the USB cable*
 
@@ -287,25 +310,3 @@ It is a cool software that helps to learn how things are working that nothing yo
 
 Yes. Take a look here:
 https://code.google.com/p/measureit/wiki/API_Documentation
-
-*How can I read the measureit.log?*
-
-You have several options to do this.
-
- If you want to read the log in real time you can open a second console to your instalation and do a 
-
-{{{
-tail -f /tmp/measureit.log
-}}}
-
-To show the log you can do a
-
-{{{
-cat /tmp/measureit.log
-}}}
-
-Or if the log is too long you can read it in parts. Every time you press space you get the next part
-
-{{{
-cat /tmp/measureit.log | more
-}}}
