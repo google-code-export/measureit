@@ -39,6 +39,16 @@ tail -f /tmp/measureit.log
 
 To get detailed informations to debug you can start the grabber manually. 
 
+To run the grabber manually you had to stop the currently running measureit process first. On the PI image you can do this with
+{{{
+svc -d /service/measureit
+}}}
+
+To start it after debugging do a
+{{{
+svc -u /service/measureit
+}}}
+
 This will write some debugging information in the measure.log
 {{{
 /usr/bin/python /usr/local/measureit/python/data-input.py test
