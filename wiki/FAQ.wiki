@@ -6,6 +6,12 @@ You will find also contact on TWITTER:
 
 [http://twitter.com/#!/measureitsoft @measureitsoft] 
 
+All commands had to be done as user root. On the Raspberry PI you can change to root with
+
+{{{
+sudo bash
+}}}
+
 ===FAQ===
 
 *Does my system support the USB cable?*
