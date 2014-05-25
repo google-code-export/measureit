@@ -277,3 +277,25 @@ It is a cool software that helps to learn how things are working that nothing yo
 
 Yes. Take a look here:
 https://code.google.com/p/measureit/wiki/API_Documentation
+
+*How can I read the measureit.log?*
+
+You have several options to do this.
+
+ If you want to read the log in real time you can open a second console to your instalation and do a 
+
+{{{
+tail -f /tmp/measureit.log
+}}}
+
+To show the log you can do a
+
+{{{
+cat /tmp/measureit.log
+}}}
+
+Or if the log is too long you can read it in parts. Every time you press space you get the next part
+
+{{{
+cat /tmp/measureit.log | more
+}}}
