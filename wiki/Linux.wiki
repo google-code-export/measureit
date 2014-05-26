@@ -91,7 +91,7 @@ Next we download and setup Measureit. You will asked for the user password you e
 {{{
 cd /usr/local/src
 wget https://mega.co.nz/#!6QUgHJIA!cuMLTMEcWe_-EOGoTXhygDLqQFxNfH4Q8ZSjFp-t3X0
-tar -zxvf measureit-XXX.tgz
+tar -xvf measureit-XXX.tar
 cd measureit-XXX/measureit_system_files/
 }}}
 
