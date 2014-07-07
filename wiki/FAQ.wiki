@@ -146,6 +146,8 @@ If you get a white page with no information after installing or update there is 
 Try the following steps:
 
   * You can call the follwing URL to get a clear error message: <code>http://YOUR-CURRENT_URL/php/measureit_functions.php?do=navigation_main</code>
+See also:
+https://groups.google.com/forum/#!searchin/measureit/ubuntu/measureit/N6TySMsQ1ws
 
   * I do a programming error so your second step should be [https://code.google.com/p/measureit/issues/list to take a look here]
 
