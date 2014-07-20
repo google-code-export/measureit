@@ -1,4 +1,20 @@
-#labels Phase-Support,backup
+This is already moved to the new home from measureit on github
+
+[https://github.com/lalelunet/measureit/wiki]
+
+{{{
+#
+#
+#
+#
+#old deprecated how to for history reasons
+#
+#
+#
+#
+}}}
+
+
 = How to restore a backup =
 
 There are some reasons to use a backup from your existing measureit installation. We take a look of them later. First get a existing backup...
