@@ -3,12 +3,15 @@ The FAQ is already moved to the new home from measureit on github
 
 [https://github.com/lalelunet/measureit/wiki/Help---FAQ Go to the FAQ]
 
-
-
-
-
+#
+#
+#
+#
 #old deprecated faq for history reasons
-
+#
+#
+#
+#
 If there are any questions about using or installing measureit feel free to ask  them :)
 Just create a new [http://code.google.com/p/measureit/issues/list issue]. 
 
