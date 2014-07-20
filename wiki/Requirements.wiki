@@ -1,4 +1,3 @@
-#labels Phase-Requirements,hardware,Featured
 This is already moved to the new home from measureit on github
 
 [https://github.com/lalelunet/measureit/wiki]
