@@ -1,4 +1,21 @@
 #labels Phase-Requirements,hardware,Featured
+This is already moved to the new home from measureit on github
+
+[https://github.com/lalelunet/measureit/wiki]
+
+{{{
+#
+#
+#
+#
+#old deprecated info for history reasons
+#
+#
+#
+#
+}}}
+
+
 == Requirements  ==
 To use measureit you need the following hardware:
 
