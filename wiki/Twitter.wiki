@@ -1,4 +1,3 @@
-#labels Phase-Deploy,twiiter_install_instructions
 This is already moved to the new home from measureit on github
 
 [https://github.com/lalelunet/measureit/wiki]
