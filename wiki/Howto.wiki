@@ -1,4 +1,21 @@
-#labels usage,settings
+This is already moved to the new home from measureit on github
+
+[https://github.com/lalelunet/measureit/wiki]
+
+{{{
+#
+#
+#
+#
+#old deprecated how to  for history reasons
+#
+#
+#
+#
+}}}
+
+
+
 = Usage / Setup from measureit =
 
 Here you will find the options you can set in measureit. If you run into problems see the  [https://code.google.com/p/measureit/wiki/FAQ FAQ]
