@@ -1,4 +1,3 @@
-#labels Deprecated
 The FAQ is already moved to the new home from measureit on github
 
 [https://github.com/lalelunet/measureit/wiki/Help---FAQ Go to the FAQ]
