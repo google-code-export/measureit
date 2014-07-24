@@ -1,4 +1,22 @@
-#labels update,instructions
+This is already moved to the new home from measureit on github
+
+[https://github.com/lalelunet/measureit/wiki]
+
+{{{
+#
+#
+#
+#
+#old deprecated how to  for history reasons
+#
+#
+#
+#
+}}}
+
+
+
+
 Here you find update instructions if you are using a previous version from measureit. If you are new to measureit you can ignore this page. All you need you will find in the download.
 
 ==Version 115 -> Version 116==
