@@ -1,4 +1,22 @@
 #labels screenshots,Featured
+This is already moved to the new home from measureit on github
+
+[http://lalelunet.github.io/measureit/]
+
+{{{
+#
+#
+#
+#
+#old deprecated how to  for history reasons
+#
+#
+#
+#
+}}}
+
+
+
 == Sceenshots ==
 
  * Start screen with overview over all sensors
