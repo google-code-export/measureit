@@ -1,4 +1,22 @@
-#labels History
+#labels Deprecated
+This is already moved to the new home from measureit on github
+
+[https://github.com/lalelunet/measureit/wiki]
+
+{{{
+#
+#
+#
+#
+#old deprecated how to  for history reasons
+#
+#
+#
+#
+}}}
+
+
+
 *Version 116*
   
   * Fix bug that will avoid price settings.
