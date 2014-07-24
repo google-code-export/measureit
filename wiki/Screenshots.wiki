@@ -1,4 +1,4 @@
-#labels screenshots,Featured
+#labels Deprecated
 This is already moved to the new home from measureit on github
 
 [http://lalelunet.github.io/measureit/]
