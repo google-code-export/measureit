@@ -1,4 +1,4 @@
-#labels Phase-Deploy,install,setup
+#labels Deprecated
 ==Install==
 
 The setup does not longer than about 30 minutes and is not difficult even if you are not a computer expert. The setup describes a new installation. For update instructions see the [https://code.google.com/p/measureit/wiki/UpdateInstructions update page]
