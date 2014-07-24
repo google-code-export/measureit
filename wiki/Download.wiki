@@ -1,4 +1,21 @@
-#labels Featured,Download
+#labels Deprecated
+This is already moved to the new home from measureit 
+
+[http://lalelunet.github.io/measureit/]
+
+{{{
+#
+#
+#
+#
+#old deprecated faq for history reasons
+#
+#
+#
+#
+}}}
+
+
 ==Download==
 
 Since google code does not longer support downloads in the project page I had to move the downloads to a file hoster. Warning it uses flash :/
