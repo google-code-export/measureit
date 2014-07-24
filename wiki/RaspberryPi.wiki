@@ -1,4 +1,22 @@
 #labels Featured,Phase-Implementation
+This is already moved to the new home from measureit on github
+
+[https://github.com/lalelunet/measureit/wiki]
+
+{{{
+#
+#
+#
+#
+#old deprecated how to  for history reasons
+#
+#
+#
+#
+}}}
+
+
+
 Measureit runs on a Raspberry Pi without problems.
 
 I recommend the usage from a pre configured iso image where all software is installed. 
